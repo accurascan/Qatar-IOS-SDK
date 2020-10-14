@@ -7,6 +7,19 @@ Accura Authentication is used for your customer verification and authentication.
 
 Below steps to setup Accura SDK's to your project.
 
+### Download
+
+Use below command in Terminal to clone repository
+
+install git-lfs
+
+git clone `https://github.com/accurascan/Qatar-IOS-SDK.git`
+
+After completing above command install pod with below command
+
+pod install
+
+Once installation is done open AccuraSDK.xcworkspace in xcode
 
 ## 1. Setup Accura Qatar
 
@@ -16,7 +29,7 @@ Step 1: Add licence file in to your project. <br />
             
 Step 2: Add 'AccuraQatar.framework' into your project root directory
             
-Step 3: Add AccuraQatarSDK.swift file in your projrct.<br /> 
+Step 3: Add AccuraQatarSDK.swift file in your project.<br /> 
 
 Step 4: Appdelegate.swift file in add <br />
 
@@ -55,19 +68,20 @@ Step 5 : To initialize sdk on app start:
    Some customized function below.
    Call this function after initialize sdk
     
-   * Set Blur Percentage to allow blur on document
+ * Set Blur Percentage to allow blur on document
 ```
  		// 0 for clean document and 100 for Blurry document
      	accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/60); 
 ```
     
-   * Set Blur Face Percentage to allow blur on detected Face
-```
-        // 0 for clean face and 100 for Blurry face
-     	accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/80);
-```
+
+* Set Blur Face Percentage to allow blur on detected Face
+	```
+   		 // 0 for clean face and 100 for Blurry face
+         accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/80);
+	```
     
-   * Set Glare Percentage to detect Glare on document
+* Set Glare Percentage to detect Glare on document
 ```
    		// Set min and max percentage for glare
      	accuraCameraWrapper?.setGlarePercentage(int /*minPercentage*/6, int /*maxPercentage*/98);
@@ -93,7 +107,7 @@ Step 5 : To initialize sdk on app start:
 ```
        	// 1 - allows 1% motion on document and
   		// 100 - it can not detect motion and allow document to scan.
-         accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
+        accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
 ```
       
  
@@ -151,7 +165,7 @@ Step 6 : Set CameraView
     
 	extension ViewController: VideoCameraWrapperDelegate{
     
-   		//  it calls continues when scan cards
+   		// it calls continues when scan cards
     	func processedImage(_ image: UIImage!) {
     		image:- image is a get camara image.
     	}
@@ -169,40 +183,40 @@ Step 6 : Set CameraView
     		docbackImage:- docbackImage is a documant backside image.
     	}
 
-     	//  it calls when show error messages
-        func reco_msg(_ messageCode: String!) {
-            var message = String()
-            if messageCode == ACCURA_ERROR_CODE_MOTION {
-                  message = "Keep Document Steady"
-            } else if messageCode == ACCURA_ERROR_CODE_DOCUMENT_IN_FRAME {
-                  message = "Keep document in frame"
-            } else if messageCode == ACCURA_ERROR_CODE_BRING_DOCUMENT_IN_FRAME {
-                  message = "Bring card near to frame"
-            } else if messageCode == ACCURA_ERROR_CODE_PROCESSING {
-                  message = "Processing..."
-            } else if messageCode == ACCURA_ERROR_CODE_BLUR_DOCUMENT {
-                  message = "Blur detect in document"
-            } else if messageCode == ACCURA_ERROR_CODE_FACE_BLUR {
-                  message = "Blur detected over face"
-            } else if messageCode == ACCURA_ERROR_CODE_GLARE_DOCUMENT {
-                  message = "Glare detect in document"
-            } else if messageCode == ACCURA_ERROR_CODE_HOLOGRAM {
-                  message = "Hologram Detected"
-            } else if messageCode == ACCURA_ERROR_CODE_DARK_DOCUMENT {
-                  message = "Low lighting detected"
-            } else if messageCode == ACCURA_ERROR_CODE_PHOTO_COPY_DOCUMENT {
-                  message = "Can not accept Photo Copy Document"
-            } else if messageCode == ACCURA_ERROR_CODE_FACE {
-                  message = "Face not detected"
-            } else if messageCode == ACCURA_ERROR_CODE_MRZ {
-                  message = "MRZ not detected"
-            } else if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
-                  message = "Passport MRZ not detected"
-            } else {
-                  message = ""
-            }
-            print(message)
+	func reco_msg(_ messageCode: String!) {
+   		var message = String()
+    	if messageCode == ACCURA_ERROR_CODE_MOTION {
+        	message = "Keep Document Steady"
+    	} else if messageCode == ACCURA_ERROR_CODE_DOCUMENT_IN_FRAME {
+        	message = "Bring card near to frame"
+    	} else if messageCode == ACCURA_ERROR_CODE_BRING_DOCUMENT_IN_FRAME {
+        	message = "Bring card near to frame"
+    	} else if messageCode == ACCURA_ERROR_CODE_PROCESSING {
+        	message = "Processing..."
+    	} else if messageCode == ACCURA_ERROR_CODE_BLUR_DOCUMENT {
+        	message = "Blur detect in document"
+    	} else if messageCode == ACCURA_ERROR_CODE_FACE_BLUR {
+        	message = "Blur detected over face"
+    	} else if messageCode == ACCURA_ERROR_CODE_GLARE_DOCUMENT {
+        	message = "Glare detect in document"
+    	} else if messageCode == ACCURA_ERROR_CODE_HOLOGRAM {
+        	message = "Hologram Detected"
+    	} else if messageCode == ACCURA_ERROR_CODE_DARK_DOCUMENT {
+        	message = "Low lighting detected"
+    	} else if messageCode == ACCURA_ERROR_CODE_PHOTO_COPY_DOCUMENT {
+        	message = "Can not accept Photo Copy Document"
+    	} else if messageCode == ACCURA_ERROR_CODE_FACE {
+        	message = "Face not detected"
+    	} else if messageCode == ACCURA_ERROR_CODE_MRZ {
+        	message = "MRZ not detected"
+    	} else if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
+        	message = "Passport MRZ not detected"
+    	} else {
+        	message = ""
     	}
+    	print(message)
+	}
+
 ```
 ## 2. Setup Accura liveness
 Contact to connect@accurascan.com to get Url for liveness

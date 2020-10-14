@@ -1,0 +1,11 @@
+framework module AccuraQatar {
+  umbrella header "AccuraQatar.h"
+
+  export *
+  module * { export * }
+}
+
+module AccuraQatar.Swift {
+    header "AccuraQatar-Swift.h"
+    requires objc
+}

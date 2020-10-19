@@ -39,6 +39,7 @@
 		5CC9862421180B9000A0E290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104CC7920BB4E6D00AC428E /* AppDelegate.swift */; };
 		6104CC8420BB4E6E00AC428E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6104CC8320BB4E6E00AC428E /* Assets.xcassets */; };
 		617EB0E120BB705D00BCBFD9 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */; };
+		9354D856AE477C0F63BC2473 /* Pods_AccuraQatarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */; };
 		A30ABDAA2487B29D0091362E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ABDA92487B29D0091362E /* ViewController.swift */; };
 		A324C4232476EC500002AE35 /* ShowResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324C4222476EC4F0002AE35 /* ShowResultVC.swift */; };
 		A324C42A2476ECE50002AE35 /* ResultTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A324C4282476ECE50002AE35 /* ResultTableCell.xib */; };
@@ -54,7 +55,6 @@
 		A33E204E23E2AA78004FED85 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204723E2AA78004FED85 /* CountryListCell.swift */; };
 		A33E205023E2AA78004FED85 /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204923E2AA78004FED85 /* ListTableCell.swift */; };
 		A33E205723E2B439004FED85 /* CountryNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E205623E2B439004FED85 /* CountryNameViewController.swift */; };
-		A3704729248DF45900A65D98 /* Pods_AccuraSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E5ACBB7521B13715541C2 /* Pods_AccuraSDK.framework */; };
 		A37CE39A253184BD00CF6E3B /* AccuraQatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37CE398253183B700CF6E3B /* AccuraQatar.framework */; };
 		A37CE39B253184BD00CF6E3B /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A37CE398253183B700CF6E3B /* AccuraQatar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A384904724A61EC700ECB42D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A384904624A61EC700ECB42D /* README.md */; };
@@ -78,14 +78,12 @@
 
 /* Begin PBXFileReference section */
 		0021908D22ACE78400E08B01 /* ListViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
-		0540F6CC908839F9619257A0 /* Pods-AccuraSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK.release.xcconfig"; sourceTree = "<group>"; };
-		081FC0F82D5D0D87B50F5A7D /* Pods_Accura_Lines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accura_Lines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835455124D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceMatchResultTableViewCell.swift; sourceTree = "<group>"; };
 		1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceMatchResultTableViewCell.xib; sourceTree = "<group>"; };
 		185646FA24EA45D500BFF300 /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
 		185646FB24EA45D600BFF300 /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
 		18829CD224C0638900685500 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1B1E5ACBB7521B13715541C2 /* Pods_AccuraSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraQatarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D96B2111E03500154EB7 /* Accura Scan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accura Scan-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C67D9802111E40A00154EB7 /* default_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_user.png; sourceTree = "<group>"; };
 		5C94E01D211ACA8200428686 /* Aller_Std.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Std.ttf; sourceTree = "<group>"; };
@@ -110,13 +108,11 @@
 		5C9AF50D21199A1300700EDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C9AF50F21199A1E00700EDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C9AF51121199A2700700EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5FBB638E472173D5FD37A4D7 /* Pods-CodeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeScan/Pods-CodeScan.release.xcconfig"; sourceTree = "<group>"; };
 		6104CC7620BB4E6D00AC428E /* Accura Qatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accura Qatar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6104CC7920BB4E6D00AC428E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6104CC8320BB4E6E00AC428E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6104CC8820BB4E6E00AC428E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
-		9CECF16C6E84083F97DABCB3 /* Pods_Accura_Scan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accura_Scan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30ABDA92487B29D0091362E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A324C4222476EC4F0002AE35 /* ShowResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowResultVC.swift; sourceTree = "<group>"; };
 		A324C4282476ECE50002AE35 /* ResultTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultTableCell.xib; sourceTree = "<group>"; };
@@ -134,14 +130,10 @@
 		A33E205623E2B439004FED85 /* CountryNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryNameViewController.swift; sourceTree = "<group>"; };
 		A37CE398253183B700CF6E3B /* AccuraQatar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccuraQatar.framework; sourceTree = "<group>"; };
 		A384904624A61EC700ECB42D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		A3BD2BF48CC8B09BF1D1065E /* Pods-Accura Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accura Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Accura Scan/Pods-Accura Scan.release.xcconfig"; sourceTree = "<group>"; };
 		A3F172C1242250F30050FB25 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		A681A200B0E9D89F47FBE4CA /* Pods-AccuraSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		B4512A7270DA0EFB6B68CCA9 /* Pods-Accura Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accura Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Accura Scan/Pods-Accura Scan.debug.xcconfig"; sourceTree = "<group>"; };
-		C6BA3033FD2E5069D720261F /* Pods-CodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeScan/Pods-CodeScan.debug.xcconfig"; sourceTree = "<group>"; };
-		E75351033E4DFDE894420E05 /* Pods-Accura Lines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accura Lines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Accura Lines/Pods-Accura Lines.debug.xcconfig"; sourceTree = "<group>"; };
-		F85F0F8BB32711C50BF2591F /* Pods-Accura Lines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accura Lines.release.xcconfig"; path = "Pods/Target Support Files/Pods-Accura Lines/Pods-Accura Lines.release.xcconfig"; sourceTree = "<group>"; };
+		B889DD50ECB20C7AC5A6C54E /* Pods-AccuraQatarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraQatarDemo.release.xcconfig"; path = "Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FAD8829623DDE04E007247EC /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FBA9AECEA872AAB9247F5566 /* Pods-AccuraQatarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraQatarDemo.debug.xcconfig"; path = "Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +144,6 @@
 				5C9AF51021199A1E00700EDF /* Foundation.framework in Frameworks */,
 				5C9AF51221199A2800700EDF /* CoreGraphics.framework in Frameworks */,
 				5C9AF50E21199A1300700EDF /* UIKit.framework in Frameworks */,
-				A3704729248DF45900A65D98 /* Pods_AccuraSDK.framework in Frameworks */,
 				5C9AF50C21199A0A00700EDF /* Accelerate.framework in Frameworks */,
 				5C9AF50A211999FE00700EDF /* CoreVideo.framework in Frameworks */,
 				5C9AF508211999F200700EDF /* CoreMedia.framework in Frameworks */,
@@ -166,6 +157,7 @@
 				5C9AF4F82119997700700EDF /* SystemConfiguration.framework in Frameworks */,
 				5C9AF4F62119996D00700EDF /* libz.1.dylib in Frameworks */,
 				5C9AF4F42119995800700EDF /* libsqlite3.dylib in Frameworks */,
+				9354D856AE477C0F63BC2473 /* Pods_AccuraQatarDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,21 +171,6 @@
 				1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */,
 			);
 			path = FaceMatchResultTableViewCell;
-			sourceTree = "<group>";
-		};
-		3EA25990B673F8362DC1D155 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C6BA3033FD2E5069D720261F /* Pods-CodeScan.debug.xcconfig */,
-				5FBB638E472173D5FD37A4D7 /* Pods-CodeScan.release.xcconfig */,
-				E75351033E4DFDE894420E05 /* Pods-Accura Lines.debug.xcconfig */,
-				F85F0F8BB32711C50BF2591F /* Pods-Accura Lines.release.xcconfig */,
-				A681A200B0E9D89F47FBE4CA /* Pods-AccuraSDK.debug.xcconfig */,
-				0540F6CC908839F9619257A0 /* Pods-AccuraSDK.release.xcconfig */,
-				B4512A7270DA0EFB6B68CCA9 /* Pods-Accura Scan.debug.xcconfig */,
-				A3BD2BF48CC8B09BF1D1065E /* Pods-Accura Scan.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		5C67D96A2111E02100154EB7 /* AccuraScan */ = {
@@ -229,8 +206,8 @@
 			children = (
 				6104CC7820BB4E6D00AC428E /* CodeScan */,
 				6104CC7720BB4E6D00AC428E /* Products */,
-				3EA25990B673F8362DC1D155 /* Pods */,
 				934DB65DAB247E2C5F8233CE /* Frameworks */,
+				B6D963EC61A03E5EB8374596 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -320,9 +297,7 @@
 				5C9AF4F72119997700700EDF /* SystemConfiguration.framework */,
 				5C9AF4F52119996D00700EDF /* libz.1.dylib */,
 				5C9AF4F32119995800700EDF /* libsqlite3.dylib */,
-				081FC0F82D5D0D87B50F5A7D /* Pods_Accura_Lines.framework */,
-				1B1E5ACBB7521B13715541C2 /* Pods_AccuraSDK.framework */,
-				9CECF16C6E84083F97DABCB3 /* Pods_Accura_Scan.framework */,
+				53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,6 +338,16 @@
 			path = External;
 			sourceTree = "<group>";
 		};
+		B6D963EC61A03E5EB8374596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBA9AECEA872AAB9247F5566 /* Pods-AccuraQatarDemo.debug.xcconfig */,
+				B889DD50ECB20C7AC5A6C54E /* Pods-AccuraQatarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAD8829323DDE04E007247EC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,13 +363,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6104CC8B20BB4E6E00AC428E /* Build configuration list for PBXNativeTarget "AccuraQatarDemo" */;
 			buildPhases = (
-				BA25CFB995303AC70CB1A46E /* [CP] Check Pods Manifest.lock */,
+				4E44F1036C0D76D8326EDB11 /* [CP] Check Pods Manifest.lock */,
 				6104CC7220BB4E6D00AC428E /* Sources */,
 				6104CC7320BB4E6D00AC428E /* Frameworks */,
 				6104CC7420BB4E6D00AC428E /* Resources */,
 				FA30D04B23DEE96300BA0DC0 /* ShellScript */,
 				A3CE785124877CF500B8D3F2 /* Embed Frameworks */,
-				4493101AD4EC06708A061156 /* [CP] Embed Pods Frameworks */,
+				7129383F9248AD29EE7E079F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -461,39 +446,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4493101AD4EC06708A061156 /* [CP] Embed Pods Frameworks */ = {
+		4E44F1036C0D76D8326EDB11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA25CFB995303AC70CB1A46E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AccuraSDK-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AccuraQatarDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7129383F9248AD29EE7E079F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA30D04B23DEE96300BA0DC0 /* ShellScript */ = {
@@ -671,7 +660,7 @@
 		};
 		6104CC8C20BB4E6E00AC428E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A681A200B0E9D89F47FBE4CA /* Pods-AccuraSDK.debug.xcconfig */;
+			baseConfigurationReference = FBA9AECEA872AAB9247F5566 /* Pods-AccuraQatarDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -732,7 +721,7 @@
 		};
 		6104CC8D20BB4E6E00AC428E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0540F6CC908839F9619257A0 /* Pods-AccuraSDK.release.xcconfig */;
+			baseConfigurationReference = B889DD50ECB20C7AC5A6C54E /* Pods-AccuraQatarDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";

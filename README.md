@@ -19,9 +19,9 @@ Below steps to setup AccuraQatar SDK's to your project.
 
 ## 1. Setup Accura Qatar
 
-Step 1: Add licence file in to your project. <br />        
-            - key.licence // for Accura Qatar <br />
-            Generate your Accura licence from https://accurascan.com/developer/sdk-license<br />
+Step 1: Add license file in to your project. <br />        
+            - key.license // for Accura Qatar <br />
+            Generate your Accura license from https://accurascan.com/developer/sdk-license<br />
             
 Step 2: Add 'AccuraQatar.framework' into your project root directory
             

@@ -53,13 +53,13 @@
 -(void)processWithBack1:(NSString*)stCard  andisCheckBack:(bool)isCheckBack;
 -(void)drawFeatures:(UIImage *)image11;
 -(void)setHologramDetection:(bool)hologram;
--(void)setBlurPercentage:(int)faceBlur;
 -(void)setFaceBlurPercentage:(int)faceBlur;
 -(void)setLowLightTolerance:(int)lowLight;
 -(void)setMotionThreshold:(int)motion;
 -(void)setGlarePercentage:(int)intMin intMax:(int)intMax;
 -(void)setCheckPhotoCopy:(bool)isPhoto;
 -(void)accuraSDK;
+-(void)setBlurPercentage:(int)blur;
 
 //-(void) reco_msg1:(string)imgo
 

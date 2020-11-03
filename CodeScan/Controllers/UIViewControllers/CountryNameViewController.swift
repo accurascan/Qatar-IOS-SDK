@@ -83,7 +83,7 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
             
              if(sdkModel != nil){
              if sdkModel!._i > 0{
-                 self.accuraCameraWrapper?.setBlurPercentage(60)
+//                 self.accuraCameraWrapper?.setBlurPercentage(60)
                  self.accuraCameraWrapper?.setFaceBlurPercentage(80)
                  self.accuraCameraWrapper?.setHologramDetection(true)
                  self.accuraCameraWrapper?.setLowLightTolerance(10)

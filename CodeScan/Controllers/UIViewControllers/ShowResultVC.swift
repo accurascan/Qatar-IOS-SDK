@@ -291,7 +291,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         ischeckOneTime = true
 
-        Liveness.setLivenessURL(livenessURL: "Your URL")
+        Liveness.setLivenessURL(livenessURL: "Your URL"/*""*/)
         Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
         Liveness.setCloseIconColor(closeIconColor: "#000000")
         Liveness.setFeedbackBackGroundColor(feedbackBackGroundColor: "#C4C4C5")
@@ -324,6 +324,9 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        EngineWrapper.faceEngineClose()
     }
     
     
@@ -517,7 +520,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 if sex == "M" {
                     stSex = "MALE";
                 }
-                dict = [KEY_VALUE: stSex,KEY_TITLE:"Sex"] as [String : AnyObject]
+                dict = [KEY_VALUE: sex,KEY_TITLE:"Sex"] as [String : AnyObject]
                 arrDocumentData.append(dict)
                 break
             case 12:
@@ -773,7 +776,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                     let objDataKey = arrDataForntKey[indexPath.row]
                     let objDataValue = arrDataForntValue[indexPath.row]
                     cell.lblName.text = objDataKey.uppercased()
-                    cell.lblValue.text = objDataValue.uppercased()
+                    cell.lblValue.text = objDataValue
                     if objDataKey.contains("Sign") || objDataKey.contains("SIGN"){
                         if let decodedData = Data(base64Encoded: objDataValue, options: .ignoreUnknownCharacters) {
                             let image = UIImage(data: decodedData)
@@ -794,12 +797,13 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                     let objDatakey = arrDataBackKey[indexPath.row]
                     let objDataValue = arrDataBackValue[indexPath.row]
                     cell.lblName.text = objDatakey.uppercased()
-                    cell.lblValue.text = objDataValue.uppercased()
+                    cell.lblValue.text = objDataValue
                     if objDatakey.contains("Sign") || objDatakey.contains("SIGN"){
                         if let decodedData = Data(base64Encoded: objDataValue, options: .ignoreUnknownCharacters) {
                             let image = UIImage(data: decodedData)
                             let attachment = NSTextAttachment()
                             attachment.image = image
+                            
                             let attachmentString = NSAttributedString(attachment: attachment)
                             cell.lblValue.attributedText = attachmentString
                         }

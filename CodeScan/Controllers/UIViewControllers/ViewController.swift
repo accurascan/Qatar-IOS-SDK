@@ -409,6 +409,8 @@ extension ViewController: VideoCameraWrapperDelegate {
             lblOCRMsg.text = "MRZ not detected"
         } else  if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
             lblOCRMsg.text = "Passport MRZ not detected"
+        } else if messageCode == ACCURA_ERROR_CODE_RETRYING {
+            lblOCRMsg.text = "Retrying..."
         } else {
             lblOCRMsg.text = ""
         }

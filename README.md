@@ -203,7 +203,9 @@ Step 6 : Set CameraView
         	message = "MRZ not detected"
     	} else if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
         	message = "Passport MRZ not detected"
-    	} else {
+    	} else if messageCode == ACCURA_ERROR_CODE_RETRYING {
+            message = "Retrying..."
+        } else {
         	message = ""
     	}
     	print(message)

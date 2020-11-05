@@ -30,78 +30,76 @@ Step 3: Add AccuraQatarSDK.swift file in your project.<br />
 Step 4: In Appdelegate.swift file add <br />
 
 ```
-	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    	AccuraQatarSDK.configure()
-        
-        return true
-   }
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    AccuraQatarSDK.configure()    
+    return true
+}
 ```
 Step 5 : To initialize sdk on app start:
 
 ```
-	import AccuraQatar
-	var accuraCameraWrapper: AccuraCameraWrapper? = nil
-	var arrCountryList = NSMutableArray()
-    accuraCameraWrapper = AccuraCameraWrapper.init()
-    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-		let sdkModel = accuraCameraWrapper.loadEngine(your PathForDirectories)
-		if (sdkModel.i > 0) {
-			// if sdkModel.isOCREnable then get card data
-			if (sdkModel.isOCREnable) let countryListStr = self.videoCameraWrapper?.getOCRList();
-          
-			if (countryListStr != null) {
-				for i in countryListStr!{
-					self.arrCountryList.add(i)
-				}
+import AccuraQatar
+var accuraCameraWrapper: AccuraCameraWrapper? = nil
+var arrCountryList = NSMutableArray()
+accuraCameraWrapper = AccuraCameraWrapper.init()
+DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+	let sdkModel = accuraCameraWrapper.loadEngine(your PathForDirectories)
+	if (sdkModel.i > 0) {
+		// if sdkModel.isOCREnable then get card data
+		if (sdkModel.isOCREnable) let countryListStr = self.videoCameraWrapper?.getOCRList();
+  		if (countryListStr != null) {
+			for i in countryListStr!{
+				self.arrCountryList.add(i)
 			}
-    	}
+		}
     }
+}
     
- ```
+```
  
  Some customized function below. Call this function after initialize sdk
     
  * Set Blur Percentage to allow blur on document
 ```
-	// 0 for clean document and 100 for Blurry document
-	accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/60); 
+// 0 for clean document and 100 for Blurry document
+accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/60); 
 ```
 
 * Set Blur Face Percentage to allow blur on detected Face
 ```
-	// 0 for clean face and 100 for Blurry face
-	accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/80);
+// 0 for clean face and 100 for Blurry face
+accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/80);
 ```
     
 * Set Glare Percentage to detect Glare on document
 ```
-	// Set min and max percentage for glare
-	accuraCameraWrapper?.setGlarePercentage(int /*minPercentage*/6, int /*maxPercentage*/98);
+// Set min and max percentage for glare
+accuraCameraWrapper?.setGlarePercentage(int /*minPercentage*/6, int /*maxPercentage*/98);
 ```
 
 * Set Photo Copy to allow photocopy document or not
 ```
-	// Set min and max percentage for glare
-	accuraCameraWrapper?.setCheckPhotoCopy(bool /*isCheckPhotoCopy*/false);
+// Set min and max percentage for glare
+accuraCameraWrapper?.setCheckPhotoCopy(bool /*isCheckPhotoCopy*/false);
 ```
     
 * Set Hologram detection to verify the hologram on the face
 ```
-	// true to check hologram on face
-	accuraCameraWrapper?.setHologramDetection(boolean /*isDetectHologram*/true);
+// true to check hologram on face
+accuraCameraWrapper?.setHologramDetection(boolean /*isDetectHologram*/true);
 ```
 
 * Set light tolerance to detect light on document
 ```
-	// 0 for full dark document and 100 for full bright document
-	accuraCameraWrapper?.setLowLightTolerance(int /*lowlighttolerance*/10);
+// 0 for full dark document and 100 for full bright document
+accuraCameraWrapper?.setLowLightTolerance(int /*lowlighttolerance*/10);
 ```
 
 * Set motion threshold to detect motion on camera document
 ```
-	// 1 - allows 1% motion on document and
-	// 100 - it can not detect motion and allow document to scan.
-	accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
+// 1 - allows 1% motion on document and
+// 100 - it can not detect motion and allow document to scan.
+accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
 ```
 
 Step 6 : Set CameraView
@@ -109,71 +107,71 @@ Step 6 : Set CameraView
  Important Grant Camera Permission.
    
 ```
-	import AccuraQatar
-	import AVFoundation
+import AccuraQatar
+import AVFoundation
     
-	var accuraCameraWrapper: AccuraCameraWrapper? = nil
+var accuraCameraWrapper: AccuraCameraWrapper? = nil
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		let status = AVCaptureDevice.authorizationStatus(for: .video)
+override func viewDidLoad() {
+	super.viewDidLoad()
+	let status = AVCaptureDevice.authorizationStatus(for: .video)
     
-		if status == .authorized {
+	if status == .authorized {
 			accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: /*setImageView*/ _imageView,andLabelMsg: */setLable*/ lblOCRMsg, andurl: */your PathForDirectories*/ NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: /*setCardId*/ Int32(cardid!), countryID: /*setcountryid*/ Int32(countryid!), isScanOCR:/*Bool*/ isCheckScanOCR, andLabelMsgTop:/*Lable*/ _lblTitle, andcardName:/*string*/  docName)
-   		} else if status == .denied {
-       		let alert = UIAlertController(title: "AccuraSdk", message: "It looks like your privacy settings are preventing us from accessing your camera.", preferredStyle: .alert)
-       	 	let yesButton = UIAlertAction(title: "OK", style: .default) { _ in
-   				if #available(iOS 10.0, *) {
-      				UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
-    			} else {
-       				UIApplication.shared.openURL(URL(string: UIApplication.openSettingsURLString)!)
-   				}
+   	} else if status == .denied {
+       	let alert = UIAlertController(title: "AccuraSdk", message: "It looks like your privacy settings are preventing us from accessing your camera.", preferredStyle: .alert)
+       	 let yesButton = UIAlertAction(title: "OK", style: .default) { _ in
+   			if #available(iOS 10.0, *) {
+      			UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
+    		} else {
+       			UIApplication.shared.openURL(URL(string: UIApplication.openSettingsURLString)!)
    			}
-       		alert.addAction(yesButton)
-       		self.present(alert, animated: true, completion: nil)
-    	} else if status == .restricted {
-    	} else if status == .notDetermined  {
-    		AVCaptureDevice.requestAccess(for: .video) { granted in
-    			if granted {
-        			accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: /*setImageView*/ _imageView, andLabelMsg: */setLable*/ lblOCRMsg, andurl: */your PathForDirectories*/ NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: /*setCardId*/ Int32(cardid!), countryID: /*setcountryid*/ Int32(countryid!), isScanOCR:/*Bool*/ isCheckScanOCR, andLabelMsgTop:/*Lable*/ _lblTitle, andcardName:/*string*/  docName)
-    			} else {
-    				// print("Not granted access")
-    			}
+   		}
+       	alert.addAction(yesButton)
+       	self.present(alert, animated: true, completion: nil)
+    } else if status == .restricted {
+    } else if status == .notDetermined  {
+    	AVCaptureDevice.requestAccess(for: .video) { granted in
+    		if granted {
+        		accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: /*setImageView*/ _imageView, andLabelMsg: */setLable*/ lblOCRMsg, andurl: */your PathForDirectories*/ NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: /*setCardId*/ Int32(cardid!), countryID: /*setcountryid*/ Int32(countryid!), isScanOCR:/*Bool*/ isCheckScanOCR, andLabelMsgTop:/*Lable*/ _lblTitle, andcardName:/*string*/  docName)
+    		} else {
+    			// print("Not granted access")
     		}
     	}
     }
+}
     
-    override func viewDidAppear(_ animated: Bool) {
-      	super.viewDidAppear(animated)
+override func viewDidAppear(_ animated: Bool) {
+	super.viewDidAppear(animated)
     	accuraCameraWrapper?.startCamera()
+}
+    
+override func viewWillDisappear(_ animated: Bool) {
+	accuraCameraWrapper?.stopCamera()
+	accuraCameraWrapper = nil
+	super.viewWillDisappear(animated)
+}
+    
+    
+extension ViewController: VideoCameraWrapperDelegate{
+    
+	// it calls continues when scan cards
+	func processedImage(_ image: UIImage!) {
+    	image:- image is a get camara image.
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        accuraCameraWrapper?.stopCamera()
-        accuraCameraWrapper = nil
-        super.viewWillDisappear(animated)
+    // it call when license key wrong otherwise didnt get key
+    func recognizeFailed(_ message: String!) {
+    	message:- message is a set alert message.
     }
     
-    
-	extension ViewController: VideoCameraWrapperDelegate{
-    
-   		// it calls continues when scan cards
-    	func processedImage(_ image: UIImage!) {
-    		image:- image is a get camara image.
-    	}
-    
-    	// it call when license key wrong otherwise didnt get key
-    	func recognizeFailed(_ message: String!) {
-    		message:- message is a set alert message.
-    	}
-    
-    	// it calls when get MRZ data
-    	func recognizeSucceed(_ scanedInfo: NSMutableDictionary!, recType: RecType, bRecDone: Bool, bFaceReplace: Bool, bMrzFirst: Bool, photoImage: UIImage, docFrontImage: UIImage!, docbackImage: UIImage!) {
-   			scanedInfo :- scanedInfo is a NSMutableDictionary in get MRZ data.
-    		photoImage:- photoImage in get a document face Image.
-    		docFrontImage:- docFrontImage is a documant frontside image.
-    		docbackImage:- docbackImage is a documant backside image.
-    	}
+    // it calls when get MRZ data
+    func recognizeSucceed(_ scanedInfo: NSMutableDictionary!, recType: RecType, bRecDone: Bool, bFaceReplace: Bool, bMrzFirst: Bool, photoImage: UIImage, docFrontImage: UIImage!, docbackImage: UIImage!) {
+   		scanedInfo :- scanedInfo is a NSMutableDictionary in get MRZ data.
+    	photoImage:- photoImage in get a document face Image.
+    	docFrontImage:- docFrontImage is a documant frontside image.
+    	docbackImage:- docbackImage is a documant backside image.
+	}
 
 	func reco_msg(_ messageCode: String!) {
    		var message = String()
@@ -250,7 +248,7 @@ Step 3: Implement face match code manually to your activity.
  
 Important Grant Camera Permission.
     
- ```
+```
 /*
 *	FaceMatch SDK method to check if engine is initiated or not
 *	Return: true or false
@@ -282,6 +280,10 @@ let twoDecimalPlaces = String(format: "%.2f", fmSore*100) //Match score Convert 
 lableMatchRate.text = "Match Score : \(twoDecimalPlaces) %" 
 ```
 
+Step 3: Close faceEngine On View Disappear
+```
+EngineWrapper.faceEngineClose()
+```
 
 
 

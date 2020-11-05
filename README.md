@@ -242,9 +242,7 @@ Step 1: Add licence file in to your project.<br />
             - accuraface.license // for Accura Face Match <br />
             Generate your Accura licence from https://accurascan.com/developer/sdk-license  
             
-Step 2: Add FaceView.swift file in your project.            
-
-Step 3: Implement face match code manually to your activity.
+Step 2: Implement face match code manually to your activity.
  
 Important Grant Camera Permission.
     
@@ -259,8 +257,8 @@ if !fmInit{
     EngineWrapper.faceEngineInit()
 }
 /*
-*		Facematch SDK method to get SDK engine status after initialization
-*		Return: -20 = Face Match license key not found, -15 = Face Match license is invalid.
+*	Facematch SDK method to get SDK engine status after initialization
+*	Return: -20 = Face Match license key not found, -15 = Face Match license is invalid.
 */
 let fmValue = EngineWrapper.getEngineInitValue() //get engineWrapper load status
 if fmValue == -20{

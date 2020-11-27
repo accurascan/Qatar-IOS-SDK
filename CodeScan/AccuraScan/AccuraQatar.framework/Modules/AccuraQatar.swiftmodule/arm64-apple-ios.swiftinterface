@@ -1,12 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AccuraQatar
 import AVFoundation
 @_exported import AccuraQatar
 import Alamofire
 import Firebase
 import Foundation
-import SVProgressHUD
 import Swift
 import UIKit
 public let ACCURA_ERROR_CODE_MOTION: Swift.String
@@ -26,7 +25,17 @@ public let ACCURA_ERROR_CODE_RETRYING: Swift.String
 public protocol LivenessData {
   func LivenessData(stLivenessValue: Swift.String, livenessImage: UIKit.UIImage, status: Swift.Bool)
 }
-@_hasMissingDesignatedInitializers public class Liveness {
+@objc open class ProgressSHD : UIKit.UICollectionViewLayoutAttributes {
+  open class func dismiss()
+  open class func show(_ status: Swift.String?)
+  open class func show(_ status: Swift.String?, _ interaction: Swift.Bool)
+  open class func showSuccess(_ status: Swift.String?)
+  open class func showSuccess(_ status: Swift.String?, _ interaction: Swift.Bool)
+  open class func showError(_ status: Swift.String?)
+  open class func showError(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @objc deinit
+}
+public class Liveness {
   public static func setLiveness(livenessView: UIKit.UIViewController)
   public static func setBackGroundColor(backGroundColor: Swift.String)
   public static func setCloseIconColor(closeIconColor: Swift.String)

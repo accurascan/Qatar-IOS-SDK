@@ -60,6 +60,7 @@
 -(void)setCheckPhotoCopy:(bool)isPhoto;
 -(void)accuraSDK;
 -(void)setBlurPercentage:(int)blur;
+-(void)showLogFile:(bool)isShowLogs;
 
 //-(void) reco_msg1:(string)imgo
 

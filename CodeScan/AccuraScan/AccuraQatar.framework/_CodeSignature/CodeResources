@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.gitkeep</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		2klPxF8I/mN4zRIXSd74WjAQvZM=
+		Ss0rIsDzTYtx8utYLAQSHrZWDOk=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		wuSrmzGOYrHS4pV4JndDFgT+nbQ=
+		HN3lIOmn2UwilrFjNL7QR1ID2Ek=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
 		<data>
-		+K/bKhcVnGmpmeZJbGBK+CkHKDU=
+		Hh4qLlJpdnJ2RLVsKe0NxoO2Lw8=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
 		<data>
-		X9FwN8XPa5XVLjOL7sFGSu3g7JA=
+		W+TF/C0djllwb4ejtlbbwoqIOaA=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
 		<data>
@@ -98,11 +102,11 @@
 		</data>
 		<key>Headers/AccuraCameraWrapper.h</key>
 		<data>
-		TiAzkktave8lPzlyd7JMluuQfn8=
+		NWjWnc3W+n5uMer8KiFlXuzcbpQ=
 		</data>
 		<key>Headers/AccuraQatar-Swift.h</key>
 		<data>
-		EAPu4zywGb0rxelffk65HX5VU4Q=
+		PTVjTanF+66ovGKfKbKt8+toHqY=
 		</data>
 		<key>Headers/AccuraQatar.h</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fLA5tA/TI2vYg6zR1qOjnlygxVc=
+		ZxXU/acU8nLGGl3iBV9yAVo9WxU=
 		</data>
 		<key>Liveness.storyboardc/Info.plist</key>
 		<data>
@@ -150,131 +154,99 @@
 		</data>
 		<key>Liveness.storyboardc/LivenessVC.nib/objects-11.0+.nib</key>
 		<data>
-		UIURvcptVo20+hw2BiobDtuHSuc=
+		MvRyhIkTX5WIsTlo7/phYI9wqWY=
+		</data>
+		<key>Liveness.storyboardc/LivenessVC.nib/objects-13.0+.nib</key>
+		<data>
+		VW0lv0u5rLfp/BTQ/X5lIEMuwOQ=
 		</data>
 		<key>Liveness.storyboardc/LivenessVC.nib/runtime.nib</key>
 		<data>
-		smMVvOF0j31o6iYhbiJxBa7RRDs=
+		WEtg37naVNQ/6lLJK8fiRN2OagY=
 		</data>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/objects-11.0+.nib</key>
 		<data>
-		08BET8CgfihaJvvjdnIrc3BKlEs=
+		GAGjBgkjYHZ9HgnJqxKxzacQYhw=
+		</data>
+		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/objects-13.0+.nib</key>
+		<data>
+		5yffhKkEe6KJonFn3aetWkewgYA=
 		</data>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/runtime.nib</key>
 		<data>
-		TFk4n6GzwziUT0imwUZr3eFjlrc=
+		So6gJZap3/tjbgfcXTlWL4o2Ju4=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftdoc</key>
 		<data>
-		njemz3J3DCY2AZGjr5QUKZ+OMoo=
+		qO5i7outtU+wUqrCyqWrCae+NaQ=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftinterface</key>
 		<data>
-		8GC8BdbfGqCPog71TqJrkLcJYrg=
+		ioIvb13IblWj15rurssIgUs+APg=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftmodule</key>
 		<data>
-		DmELHcdfM3kPKOXbo++7785xess=
+		gUu1lQzUZzSHB4naITT7gcicCEc=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		JJci1T2aXW/S0LsWQnRgFkcA0s8=
+		jLVT/RXsp/9E/wUVNbikygAdyVs=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xD2/24qQe1g+hSV1VU5GUquI0Wg=
+		B2qT44jrXcasMRuSO6AZEBKtKJY=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		oxRAJkn9OlYAmhCjRnydrWeZMBU=
+		tnQEXX/nBAhUPTHUkYrOV112CiE=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		JJci1T2aXW/S0LsWQnRgFkcA0s8=
+		jLVT/RXsp/9E/wUVNbikygAdyVs=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		xD2/24qQe1g+hSV1VU5GUquI0Wg=
+		B2qT44jrXcasMRuSO6AZEBKtKJY=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		oxRAJkn9OlYAmhCjRnydrWeZMBU=
+		tnQEXX/nBAhUPTHUkYrOV112CiE=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		njemz3J3DCY2AZGjr5QUKZ+OMoo=
+		qO5i7outtU+wUqrCyqWrCae+NaQ=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		8GC8BdbfGqCPog71TqJrkLcJYrg=
+		ioIvb13IblWj15rurssIgUs+APg=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		DmELHcdfM3kPKOXbo++7785xess=
+		gUu1lQzUZzSHB4naITT7gcicCEc=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		njemz3J3DCY2AZGjr5QUKZ+OMoo=
+		qO5i7outtU+wUqrCyqWrCae+NaQ=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		8GC8BdbfGqCPog71TqJrkLcJYrg=
+		ioIvb13IblWj15rurssIgUs+APg=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		DmELHcdfM3kPKOXbo++7785xess=
+		gUu1lQzUZzSHB4naITT7gcicCEc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		TeKyes+Qs3YxDOz+QZyEIGvQ0Is=
 		</data>
-		<key>SVProgressHUD.bundle/angle-mask.png</key>
+		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>
 		<data>
-		oqIJzVxhZua/CZX+TGK3kylFilY=
+		TidljxvBtawQRR1ReUa7/wF1sp0=
 		</data>
-		<key>SVProgressHUD.bundle/angle-mask@2x.png</key>
+		<key>ProgressSUD.bundle/progresshud-success@2x.png</key>
 		<data>
-		3aAb8SeX29Ro7z1pt6A1yqUAaHs=
-		</data>
-		<key>SVProgressHUD.bundle/angle-mask@3x.png</key>
-		<data>
-		pPD0GLNI2PnWq2CX6UyQ9H52T9g=
-		</data>
-		<key>SVProgressHUD.bundle/error.png</key>
-		<data>
-		oP6f/Zad0pEL8xrimTdNlSXrrpA=
-		</data>
-		<key>SVProgressHUD.bundle/error@2x.png</key>
-		<data>
-		cFCuvbmEkaKmhj2RThSqw/5KUtM=
-		</data>
-		<key>SVProgressHUD.bundle/error@3x.png</key>
-		<data>
-		QSlxhLYpqk8M4tlq+X0hXbamUH0=
-		</data>
-		<key>SVProgressHUD.bundle/info.png</key>
-		<data>
-		CP1bXzRkp6v+a6oAHECMgzhmOIU=
-		</data>
-		<key>SVProgressHUD.bundle/info@2x.png</key>
-		<data>
-		yx+ZQImmZJ+j/av7X/uJpzaqomU=
-		</data>
-		<key>SVProgressHUD.bundle/info@3x.png</key>
-		<data>
-		5MgHR68ek5Ayg9vc2oGqk1wMpdQ=
-		</data>
-		<key>SVProgressHUD.bundle/success.png</key>
-		<data>
-		oQ/IlYYGw5vH/rx4pqvYiNddu8c=
-		</data>
-		<key>SVProgressHUD.bundle/success@2x.png</key>
-		<data>
-		P1jXd1XGKWq/KG50KF6pWjBVwBo=
-		</data>
-		<key>SVProgressHUD.bundle/success@3x.png</key>
-		<data>
-		hmliT+WZg212OTNmAhP+uSOyYio=
+		SCYfSuQkXi++HbUCnvveWTagC3A=
 		</data>
 		<key>default_user.png</key>
 		<data>
@@ -303,15 +275,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.gitkeep</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2klPxF8I/mN4zRIXSd74WjAQvZM=
+			Ss0rIsDzTYtx8utYLAQSHrZWDOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WvruyZY1kLEQA67bU/gSIm91rAUXNGS38jiOrKY594M=
+			sgVTILNVihzUmPuW50Ka68B8c8w6OATd77lpVle5UUY=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -351,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wuSrmzGOYrHS4pV4JndDFgT+nbQ=
+			HN3lIOmn2UwilrFjNL7QR1ID2Ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			5KHjS/1FeNuuL0UY8BGv3SE1MtIw+7WVqQImc6KqQ1Q=
+			aX62jqCoWYWFw6JByw0dN+96LI8R5OOpKWTqu6QCd0s=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -461,11 +444,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+K/bKhcVnGmpmeZJbGBK+CkHKDU=
+			Hh4qLlJpdnJ2RLVsKe0NxoO2Lw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLS7UWj1xh+TjR1vpFhKY6XjUT1GnimRdi+n8QYhbw0=
+			DLiLl4ZIE+qgVPZLpjggGL9fINYnz+9xZoY19Hg+9Vg=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -483,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X9FwN8XPa5XVLjOL7sFGSu3g7JA=
+			W+TF/C0djllwb4ejtlbbwoqIOaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VpYmR1j7dcZh0xAB9ljAGf5DzuiKaKCz+jcp0cAkd/c=
+			EPDNQpLTZ7J3ggU9/BhgwGKbEwmAWLOsHW7KYoi7+wQ=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
@@ -560,22 +543,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TiAzkktave8lPzlyd7JMluuQfn8=
+			NWjWnc3W+n5uMer8KiFlXuzcbpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BijVa62u5RNGK75cFwkvjLD8/FKRI7NgyyySjdudzHY=
+			jZm7NzavPkKzvE9xc3630rT8NdAGs5bnAawXcC5dG14=
 			</data>
 		</dict>
 		<key>Headers/AccuraQatar-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EAPu4zywGb0rxelffk65HX5VU4Q=
+			PTVjTanF+66ovGKfKbKt8+toHqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UbNZL4TVnLY88MemS1yEhOHfO53ETo9XadsxyJewveM=
+			Vqu4y0IVD0eTvwW/6PKbO2DHdT5NkVhopzSqTAUnjlA=
 			</data>
 		</dict>
 		<key>Headers/AccuraQatar.h</key>
@@ -692,209 +675,231 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UIURvcptVo20+hw2BiobDtuHSuc=
+			MvRyhIkTX5WIsTlo7/phYI9wqWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ibo7iUGe8jbqM9REnwvD4JIIGdlUC2kYk37SoaHppkQ=
+			v7eWPXL6lgBlcn334MI73qiaPtg3/PzFJz239qd0nl8=
+			</data>
+		</dict>
+		<key>Liveness.storyboardc/LivenessVC.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VW0lv0u5rLfp/BTQ/X5lIEMuwOQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			LaKaBZ7IZ4G9tRl62Lkvhe3sDmuDnONHxrsVkNOrhnU=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/LivenessVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			smMVvOF0j31o6iYhbiJxBa7RRDs=
+			WEtg37naVNQ/6lLJK8fiRN2OagY=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+B2oXMClandW+51pJHnJHiQXzTxBwK/4oRwiEkyQgc=
+			+44Z+iSQ9AWWVl1QSv27dnKQZ5fDesr9Bmn6sGeT/k4=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			08BET8CgfihaJvvjdnIrc3BKlEs=
+			GAGjBgkjYHZ9HgnJqxKxzacQYhw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ONIzn+lkOi6gCV2v4Wpt2520OtchTXRtd3vsyeEPIQ=
+			M7lfhQcn0DjUk/uyhyMnUOzo4DrK3Rkl2Kcoyq7Z7bc=
+			</data>
+		</dict>
+		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5yffhKkEe6KJonFn3aetWkewgYA=
+			</data>
+			<key>hash2</key>
+			<data>
+			AJhtGfhDbukFsFMCEpV4rFyg66pztdZFFnWbYxaCHUU=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TFk4n6GzwziUT0imwUZr3eFjlrc=
+			So6gJZap3/tjbgfcXTlWL4o2Ju4=
 			</data>
 			<key>hash2</key>
 			<data>
-			R0V7dIgeYc7wQnqU0jZODfWzNQrOtQ4XPiD+Ufz4cqU=
+			yUqccI6QMe34Yu4zfMnyGqLAki5bJHS2e8XXk3yrJpw=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njemz3J3DCY2AZGjr5QUKZ+OMoo=
+			qO5i7outtU+wUqrCyqWrCae+NaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			L7WqfkA/ejMsNTwKTHWlZRi3JIONLDg7200Ch/OGk/U=
+			1fHp5Z5Rli2Zq4+apFvxG2SPmNvkdY7IYSF+4a15MHo=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8GC8BdbfGqCPog71TqJrkLcJYrg=
+			ioIvb13IblWj15rurssIgUs+APg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KVEtyepPs77Ykph7inB1D3q9h4H/0Ujx/V9ufkJeHMI=
+			dbQmsTrPEpKkgPLrBQ/sEn/ZI9jzEEZWNffoDBeFA2U=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DmELHcdfM3kPKOXbo++7785xess=
+			gUu1lQzUZzSHB4naITT7gcicCEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hPhCOa1AeO42Phy7JM/OnGRcV1UL9ymhKyu48Sg9fEo=
+			vbKcfDYTVZaAd1Zz9OBx44bK0BANnYrRhiIrcw98DeY=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JJci1T2aXW/S0LsWQnRgFkcA0s8=
+			jLVT/RXsp/9E/wUVNbikygAdyVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			t7g9d8Exf77d5vuGVvKd2UlHo4rbkS5a+3ujWXCx+iE=
+			nQoGYJzsvgG788FjYrqoqGMLWDqvhfOHLooOq37GFAU=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xD2/24qQe1g+hSV1VU5GUquI0Wg=
+			B2qT44jrXcasMRuSO6AZEBKtKJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hRxJIam4TprYdlKmj0E/+UEg1Ny1HSUlm1Ubp/F3rXg=
+			OCg92Md2B2F6dk2Hsst0vNMKnke7I+mfI2UiMayyBEg=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oxRAJkn9OlYAmhCjRnydrWeZMBU=
+			tnQEXX/nBAhUPTHUkYrOV112CiE=
 			</data>
 			<key>hash2</key>
 			<data>
-			JZsh0oBnrU/9RO+q7H3rNqx3WZQSbteggh+TS9buOBw=
+			eyqWmhTqaZz8iB2PO3j/3fOHNuqPDMi5F44JjWtIl+U=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JJci1T2aXW/S0LsWQnRgFkcA0s8=
+			jLVT/RXsp/9E/wUVNbikygAdyVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			t7g9d8Exf77d5vuGVvKd2UlHo4rbkS5a+3ujWXCx+iE=
+			nQoGYJzsvgG788FjYrqoqGMLWDqvhfOHLooOq37GFAU=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xD2/24qQe1g+hSV1VU5GUquI0Wg=
+			B2qT44jrXcasMRuSO6AZEBKtKJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hRxJIam4TprYdlKmj0E/+UEg1Ny1HSUlm1Ubp/F3rXg=
+			OCg92Md2B2F6dk2Hsst0vNMKnke7I+mfI2UiMayyBEg=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oxRAJkn9OlYAmhCjRnydrWeZMBU=
+			tnQEXX/nBAhUPTHUkYrOV112CiE=
 			</data>
 			<key>hash2</key>
 			<data>
-			JZsh0oBnrU/9RO+q7H3rNqx3WZQSbteggh+TS9buOBw=
+			eyqWmhTqaZz8iB2PO3j/3fOHNuqPDMi5F44JjWtIl+U=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njemz3J3DCY2AZGjr5QUKZ+OMoo=
+			qO5i7outtU+wUqrCyqWrCae+NaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			L7WqfkA/ejMsNTwKTHWlZRi3JIONLDg7200Ch/OGk/U=
+			1fHp5Z5Rli2Zq4+apFvxG2SPmNvkdY7IYSF+4a15MHo=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8GC8BdbfGqCPog71TqJrkLcJYrg=
+			ioIvb13IblWj15rurssIgUs+APg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KVEtyepPs77Ykph7inB1D3q9h4H/0Ujx/V9ufkJeHMI=
+			dbQmsTrPEpKkgPLrBQ/sEn/ZI9jzEEZWNffoDBeFA2U=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DmELHcdfM3kPKOXbo++7785xess=
+			gUu1lQzUZzSHB4naITT7gcicCEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hPhCOa1AeO42Phy7JM/OnGRcV1UL9ymhKyu48Sg9fEo=
+			vbKcfDYTVZaAd1Zz9OBx44bK0BANnYrRhiIrcw98DeY=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njemz3J3DCY2AZGjr5QUKZ+OMoo=
+			qO5i7outtU+wUqrCyqWrCae+NaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			L7WqfkA/ejMsNTwKTHWlZRi3JIONLDg7200Ch/OGk/U=
+			1fHp5Z5Rli2Zq4+apFvxG2SPmNvkdY7IYSF+4a15MHo=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8GC8BdbfGqCPog71TqJrkLcJYrg=
+			ioIvb13IblWj15rurssIgUs+APg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KVEtyepPs77Ykph7inB1D3q9h4H/0Ujx/V9ufkJeHMI=
+			dbQmsTrPEpKkgPLrBQ/sEn/ZI9jzEEZWNffoDBeFA2U=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DmELHcdfM3kPKOXbo++7785xess=
+			gUu1lQzUZzSHB4naITT7gcicCEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hPhCOa1AeO42Phy7JM/OnGRcV1UL9ymhKyu48Sg9fEo=
+			vbKcfDYTVZaAd1Zz9OBx44bK0BANnYrRhiIrcw98DeY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -908,136 +913,26 @@
 			GWdIkhsUDRIuSbyZ6VqXiZ4KrfEIvZBjGhozJfbZTUA=
 			</data>
 		</dict>
-		<key>SVProgressHUD.bundle/angle-mask.png</key>
+		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oqIJzVxhZua/CZX+TGK3kylFilY=
+			TidljxvBtawQRR1ReUa7/wF1sp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			DDw2jnXp1WjofT+IkD6qy3+dLIzDE9vrxNSPoeQO4jo=
+			+TiMp/Zv80nW2eD10vj2rvIfbN4viVxIPBm7d74ywgs=
 			</data>
 		</dict>
-		<key>SVProgressHUD.bundle/angle-mask@2x.png</key>
+		<key>ProgressSUD.bundle/progresshud-success@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3aAb8SeX29Ro7z1pt6A1yqUAaHs=
+			SCYfSuQkXi++HbUCnvveWTagC3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			6QAJXoYU7vQpTdzUcb2HrKhSj6gCcrZb9r6z0J5yK+w=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/angle-mask@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pPD0GLNI2PnWq2CX6UyQ9H52T9g=
-			</data>
-			<key>hash2</key>
-			<data>
-			iwwAX8HeeU70vQudb1L6z80VbnuVeJ+zn94jLMovmKs=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/error.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oP6f/Zad0pEL8xrimTdNlSXrrpA=
-			</data>
-			<key>hash2</key>
-			<data>
-			UDk/X+yyN+USnDW9JFp7P9O5irCLZkeybVB1BEDVunA=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/error@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cFCuvbmEkaKmhj2RThSqw/5KUtM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xc9fgzh3g2FX8j9dYqux/gm+73IDul7Vb0KaMAQZo+E=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/error@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QSlxhLYpqk8M4tlq+X0hXbamUH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			P6wK1oxOL6vyD7o9q9+hP9jctZaTyluZgm1zpKgw0dM=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/info.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CP1bXzRkp6v+a6oAHECMgzhmOIU=
-			</data>
-			<key>hash2</key>
-			<data>
-			GeypxgyrUdKQ8Nyqc9w0q9XLCdtRbk4cJi9EE5QXXs8=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/info@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yx+ZQImmZJ+j/av7X/uJpzaqomU=
-			</data>
-			<key>hash2</key>
-			<data>
-			KLsrQZrjUwrsUtZSul1bJbNH8OTb5+YrjaVW+rbl64Q=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/info@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5MgHR68ek5Ayg9vc2oGqk1wMpdQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			eer51e9B3uVrPmnlKfYiqok7LLlR6cnUt8JBmo2oG3Y=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/success.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oQ/IlYYGw5vH/rx4pqvYiNddu8c=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZneDtnotiia14nbyRklrCVgGmnlPcjpSwUjyHSfPeXc=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/success@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P1jXd1XGKWq/KG50KF6pWjBVwBo=
-			</data>
-			<key>hash2</key>
-			<data>
-			hbpOiBtrYWqPZJYnEBIf/dZWn+6rFwHRPp0WzU9gA18=
-			</data>
-		</dict>
-		<key>SVProgressHUD.bundle/success@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hmliT+WZg212OTNmAhP+uSOyYio=
-			</data>
-			<key>hash2</key>
-			<data>
-			EMic5PZw5ab7sBUjL5t1YMrH5WnRAJCbgeMLFJgZQ/Q=
+			+v82W7lFz7eNbvJ0yHCC+tLiLMmxtKhI2RIYoa7QEuU=
 			</data>
 		</dict>
 		<key>default_user.png</key>

@@ -56,20 +56,20 @@
 		A33E205023E2AA78004FED85 /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204923E2AA78004FED85 /* ListTableCell.swift */; };
 		A33E205723E2B439004FED85 /* CountryNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E205623E2B439004FED85 /* CountryNameViewController.swift */; };
 		A384904724A61EC700ECB42D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A384904624A61EC700ECB42D /* README.md */; };
-		A38EC38F25710D1A007403A5 /* AccuraQatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; };
-		A38EC39025710D1A007403A5 /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3A6A7EC25961302006E319C /* AccuraQatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; };
+		A3A6A7ED25961302006E319C /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3F172C2242250F30050FB25 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F172C1242250F30050FB25 /* Launch Screen.storyboard */; };
 		FAD8829923DDE04E007247EC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8829623DDE04E007247EC /* MainStoryboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A3CE785124877CF500B8D3F2 /* Embed Frameworks */ = {
+		A3A6A7EE25961302006E319C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A38EC39025710D1A007403A5 /* AccuraQatar.framework in Embed Frameworks */,
+				A3A6A7ED25961302006E319C /* AccuraQatar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +130,7 @@
 		A33E205623E2B439004FED85 /* CountryNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryNameViewController.swift; sourceTree = "<group>"; };
 		A384904624A61EC700ECB42D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A38EC38D25710C70007403A5 /* AccuraQatar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccuraQatar.framework; sourceTree = "<group>"; };
+		A3A6A7EF25961546006E319C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A3F172C1242250F30050FB25 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B889DD50ECB20C7AC5A6C54E /* Pods-AccuraQatarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraQatarDemo.release.xcconfig"; path = "Target Support Files/Pods-AccuraQatarDemo/Pods-AccuraQatarDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FAD8829623DDE04E007247EC /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -149,7 +150,7 @@
 				5C9AF508211999F200700EDF /* CoreMedia.framework in Frameworks */,
 				5C9AF506211999E500700EDF /* CoreImage.framework in Frameworks */,
 				5C9AF504211999C600700EDF /* QuartzCore.framework in Frameworks */,
-				A38EC38F25710D1A007403A5 /* AccuraQatar.framework in Frameworks */,
+				A3A6A7EC25961302006E319C /* AccuraQatar.framework in Frameworks */,
 				5C9AF502211999BD00700EDF /* AudioToolbox.framework in Frameworks */,
 				5C9AF500211999B300700EDF /* libsqlite3.tbd in Frameworks */,
 				5C9AF4FC2119998E00700EDF /* MessageUI.framework in Frameworks */,
@@ -282,6 +283,7 @@
 		934DB65DAB247E2C5F8233CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3A6A7EF25961546006E319C /* libsqlite3.0.tbd */,
 				5C9AF51121199A2700700EDF /* CoreGraphics.framework */,
 				5C9AF50F21199A1E00700EDF /* Foundation.framework */,
 				5C9AF50D21199A1300700EDF /* UIKit.framework */,
@@ -367,8 +369,8 @@
 				6104CC7320BB4E6D00AC428E /* Frameworks */,
 				6104CC7420BB4E6D00AC428E /* Resources */,
 				FA30D04B23DEE96300BA0DC0 /* ShellScript */,
-				A3CE785124877CF500B8D3F2 /* Embed Frameworks */,
 				7129383F9248AD29EE7E079F /* [CP] Embed Pods Frameworks */,
+				A3A6A7EE25961302006E319C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -669,10 +671,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = YES;
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JA79VPTEAU;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/..\"",
 					"$(inherited)",
@@ -714,7 +718,7 @@
 				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e arm64";
+				VALID_ARCHS = "arm64e  arm64 x86_64";
 			};
 			name = Debug;
 		};
@@ -730,11 +734,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = YES;
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JA79VPTEAU;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
@@ -773,7 +779,7 @@
 				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e arm64";
+				VALID_ARCHS = "arm64e  arm64 x86_64";
 			};
 			name = Release;
 		};

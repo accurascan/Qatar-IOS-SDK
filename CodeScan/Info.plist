@@ -31,6 +31,8 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<false/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -38,6 +40,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>App needs to access camera to scan your document and provide you with accurate result</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>App needs to save files</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>use location</string>
 	<key>NSMotionUsageDescription</key>
@@ -46,8 +50,6 @@
 	<string>App needs to photo library to save your document </string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>App needs to access camera to scan your document and provide you with accurate redsult</string>
-	<key>NSDocumentsFolderUsageDescription</key>
-	<string>Appneeds to save files</string>
 	<key>UILaunchImageFile~ipad</key>
 	<string>LaunchImagedata</string>
 	<key>UIMainStoryboardFile</key>
@@ -66,11 +68,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-	<true/>
 	<key>UISupportsDocumentBrowser</key>
 	<true/>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

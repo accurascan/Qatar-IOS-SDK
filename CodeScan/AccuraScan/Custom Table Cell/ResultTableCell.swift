@@ -11,6 +11,8 @@ class ResultTableCell: UITableViewCell {
     @IBOutlet weak var lblSide: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     @IBOutlet weak var viewData: UIView!
+    @IBOutlet weak var imageValue: UIImageView!
+    @IBOutlet weak var viewImagevalueBG: UIView!
     
     
     var isCheckCell: Bool?

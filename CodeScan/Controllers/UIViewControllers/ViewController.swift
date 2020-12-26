@@ -386,7 +386,7 @@ extension ViewController: VideoCameraWrapperDelegate {
         if messageCode == ACCURA_ERROR_CODE_MOTION {
             lblOCRMsg.text = "Keep Document Steady"
         } else  if messageCode == ACCURA_ERROR_CODE_DOCUMENT_IN_FRAME {
-            lblOCRMsg.text = "Keep document in frame"
+            lblOCRMsg.text = "Keep Qatar ID in frame"
         } else  if messageCode == ACCURA_ERROR_CODE_BRING_DOCUMENT_IN_FRAME {
             lblOCRMsg.text = "Bring card near to frame"
         } else  if messageCode == ACCURA_ERROR_CODE_PROCESSING {
@@ -409,6 +409,10 @@ extension ViewController: VideoCameraWrapperDelegate {
             lblOCRMsg.text = "MRZ not detected"
         } else  if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
             lblOCRMsg.text = "Passport MRZ not detected"
+        } else if messageCode == ACCURA_ERROR_CODE_WRONG_SIDE {
+            lblOCRMsg.text = "Scanning wrong side of Document"
+        } else if messageCode == ACCURA_ERROR_CODE_IMAGE_ROTATE {
+            lblOCRMsg.text = "Document is upside down. Place it properly"
         } else if messageCode == ACCURA_ERROR_CODE_RETRYING {
             lblOCRMsg.text = "Retrying..."
         } else {

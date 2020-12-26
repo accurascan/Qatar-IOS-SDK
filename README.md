@@ -79,7 +79,7 @@ accuraCameraWrapper?.setGlarePercentage(int /*minPercentage*/6, int /*maxPercent
 
 * Set Photo Copy to allow photocopy document or not
 ```
-// Set min and max percentage for glare
+// Set allow photocopy document or not
 accuraCameraWrapper?.setCheckPhotoCopy(bool /*isCheckPhotoCopy*/false);
 ```
     

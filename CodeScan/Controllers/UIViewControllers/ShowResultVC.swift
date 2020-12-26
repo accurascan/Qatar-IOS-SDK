@@ -137,7 +137,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     var faceRegion: NSFaceRegion?
     var intID: Int?
     var ischeckOneTime: Bool?
-
+    let accuracamera = AccuraCameraWrapper()
     
     //MARK:- UIViewContoller Methods
     override func viewDidLoad() {
@@ -291,7 +291,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         ischeckOneTime = true
 
-        Liveness.setLivenessURL(livenessURL: "Your URL"/*""*/)
+        Liveness.setLivenessURL(livenessURL: /*"Your URL"*/"")
         Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
         Liveness.setCloseIconColor(closeIconColor: "#000000")
         Liveness.setFeedbackBackGroundColor(feedbackBackGroundColor: "#C4C4C5")
@@ -302,7 +302,11 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Open Your Eyes")
         Liveness.setFeedBackCloserMessage(feedBackCloserMessage: "Move Phone Closer")
         Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Center Your Face")
-        
+        Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple face detected")
+        Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
+        Liveness.setFeedBackLowLightMessage(feedBackLowLightMessage: "Low light detected")
+        Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
+        Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
         //Set TableView Height
         self.tblResult.estimatedRowHeight = 60.0
         self.tblResult.rowHeight = UITableView.automaticDimension
@@ -326,7 +330,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     override func viewDidDisappear(_ animated: Bool) {
-        EngineWrapper.faceEngineClose()
+//        EngineWrapper.faceEngineClose()
     }
     
     
@@ -646,6 +650,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         if pageType == .ScanOCR{
             removeAllData()
         }
+        EngineWrapper.faceEngineClose()
         self.navigationController?.popViewController(animated: true)
     }
     
@@ -796,16 +801,15 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 if !arrDataBackKey.isEmpty{
                     let objDatakey = arrDataBackKey[indexPath.row]
                     let objDataValue = arrDataBackValue[indexPath.row]
+                    cell.viewImagevalueBG.isHidden = true
                     cell.lblName.text = objDatakey.uppercased()
                     cell.lblValue.text = objDataValue
                     if objDatakey.contains("Sign") || objDatakey.contains("SIGN"){
                         if let decodedData = Data(base64Encoded: objDataValue, options: .ignoreUnknownCharacters) {
                             let image = UIImage(data: decodedData)
-                            let attachment = NSTextAttachment()
-                            attachment.image = image
-                            
-                            let attachmentString = NSAttributedString(attachment: attachment)
-                            cell.lblValue.attributedText = attachmentString
+                            cell.viewImagevalueBG.isHidden = false
+                            cell.imageValue.image = image
+                            cell.lblValue.text = ""
                         }
                     }
                 }
@@ -1237,7 +1241,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyMMdd"
         let date: Date? = dateFormatter.date(from: dateStr ?? "")
-        dateFormatter.dateFormat = "dd-MM-yyyy"
+        dateFormatter.dateFormat = "dd-MM-yy"
         if let date = date {
             return dateFormatter.string(from: date)
         }
@@ -1269,6 +1273,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     @objc func buttonClickedLiveness(sender:UIButton)
     {
         Liveness.setLiveness(livenessView: self)
+        
     }
     
     func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool) {
@@ -1288,6 +1293,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
              */
             
             let face2 = EngineWrapper.detectTargetFaces(livenessImage, feature1: faceRegion?.feature)
+            let face11 = faceRegion?.image
             /*
              FaceMatch SDK method call to get FaceMatch Score
              @Params: FrontImage Face, BackImage Face

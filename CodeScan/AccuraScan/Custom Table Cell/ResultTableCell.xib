@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -17,7 +17,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="81" id="Qkt-BS-ATE" customClass="ResultTableCell" customModule="Accura_KYC" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="81" id="Qkt-BS-ATE" customClass="ResultTableCell" customModule="Accura_Qatar" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="359" height="81"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qkt-BS-ATE" id="8UK-pa-8yo">
@@ -76,15 +76,37 @@
                                         <color key="textColor" red="0.39215686274509803" green="0.40392156862745099" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zGj-gh-kw4">
+                                        <rect key="frame" x="180" y="0.0" width="179" height="81"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Se5-kX-Edo">
+                                                <rect key="frame" x="15" y="15" width="149" height="51"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="51" id="ZWF-IT-4si"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Se5-kX-Edo" firstAttribute="top" secondItem="zGj-gh-kw4" secondAttribute="top" constant="15" id="3Rt-KD-UM0"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Se5-kX-Edo" secondAttribute="bottom" constant="15" id="Hdt-G8-1JI"/>
+                                            <constraint firstAttribute="trailing" secondItem="Se5-kX-Edo" secondAttribute="trailing" constant="15" id="OBs-es-PUK"/>
+                                            <constraint firstItem="Se5-kX-Edo" firstAttribute="leading" secondItem="zGj-gh-kw4" secondAttribute="leading" constant="15" id="eLa-Rk-ZaL"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="fxn-z5-Zha" firstAttribute="leading" secondItem="Kqr-QE-xWd" secondAttribute="trailing" id="1ej-qa-c37"/>
                                     <constraint firstAttribute="trailing" secondItem="lSH-Hc-few" secondAttribute="trailing" id="34C-RY-54K"/>
+                                    <constraint firstAttribute="trailing" secondItem="zGj-gh-kw4" secondAttribute="trailing" id="40c-XH-mZQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="zGj-gh-kw4" secondAttribute="bottom" id="8Rt-M5-jo1"/>
                                     <constraint firstAttribute="trailing" secondItem="fxn-z5-Zha" secondAttribute="trailing" constant="15" id="9Gb-fh-tyS"/>
+                                    <constraint firstItem="zGj-gh-kw4" firstAttribute="top" secondItem="pg6-L0-vvJ" secondAttribute="top" id="DBq-3a-mSl"/>
                                     <constraint firstItem="Kqr-QE-xWd" firstAttribute="centerX" secondItem="pg6-L0-vvJ" secondAttribute="centerX" id="HoE-kI-aEh"/>
                                     <constraint firstItem="lSH-Hc-few" firstAttribute="top" secondItem="fxn-z5-Zha" secondAttribute="bottom" constant="15" id="Lux-7l-OKV"/>
                                     <constraint firstItem="Kqr-QE-xWd" firstAttribute="leading" secondItem="AlY-p7-x9G" secondAttribute="trailing" id="O6M-sw-QpO"/>
+                                    <constraint firstItem="zGj-gh-kw4" firstAttribute="leading" secondItem="Kqr-QE-xWd" secondAttribute="trailing" id="Rwg-78-NwS"/>
                                     <constraint firstItem="AlY-p7-x9G" firstAttribute="height" secondItem="fxn-z5-Zha" secondAttribute="height" id="SpM-L8-k7c"/>
                                     <constraint firstItem="lSH-Hc-few" firstAttribute="leading" secondItem="pg6-L0-vvJ" secondAttribute="leading" id="XM8-US-Sk0"/>
                                     <constraint firstAttribute="bottom" secondItem="Kqr-QE-xWd" secondAttribute="bottom" id="iM7-uh-4Lz"/>
@@ -128,11 +150,13 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="constarintViewHaderHeight" destination="NNP-cr-5O5" id="u6d-ih-FuV"/>
+                <outlet property="imageValue" destination="Se5-kX-Edo" id="gHp-cx-hJb"/>
                 <outlet property="lblName" destination="AlY-p7-x9G" id="s7V-SF-JTz"/>
                 <outlet property="lblSide" destination="lct-F4-w19" id="t2A-J9-TFC"/>
                 <outlet property="lblValue" destination="fxn-z5-Zha" id="QLT-zI-NOv"/>
                 <outlet property="viewData" destination="pg6-L0-vvJ" id="P3z-Gb-MKt"/>
                 <outlet property="viewHeader" destination="G4s-hT-0sX" id="61c-em-8Ue"/>
+                <outlet property="viewImagevalueBG" destination="zGj-gh-kw4" id="0C3-QD-4ay"/>
             </connections>
             <point key="canvasLocation" x="-15.217391304347828" y="25.78125"/>
         </tableViewCell>

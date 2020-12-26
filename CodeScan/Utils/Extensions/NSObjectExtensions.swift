@@ -28,6 +28,17 @@ extension UIImage {
     func jpeg(_ jpegQuality: JPEGQuality) -> Data? {
         return self.jpegData(compressionQuality: jpegQuality.rawValue)
     }
+    
+    func resizeImage(scale: CGFloat) -> UIImage {
+        let newSize = CGSize(width: self.size.width*scale, height: self.size.height*scale)
+        let rect = CGRect(origin: CGPoint.zero, size: newSize)
+
+        UIGraphicsBeginImageContext(newSize)
+        self.draw(in: rect)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newImage!
+    }
 }
 
 

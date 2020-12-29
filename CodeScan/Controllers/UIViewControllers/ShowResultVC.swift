@@ -782,6 +782,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                     let objDataValue = arrDataForntValue[indexPath.row]
                     cell.lblName.text = objDataKey.uppercased()
                     cell.lblValue.text = objDataValue
+                    cell.viewImagevalueBG.isHidden = true
                     if objDataKey.contains("Sign") || objDataKey.contains("SIGN"){
                         if let decodedData = Data(base64Encoded: objDataValue, options: .ignoreUnknownCharacters) {
                             let image = UIImage(data: decodedData)

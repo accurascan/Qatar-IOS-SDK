@@ -22,6 +22,6 @@ public class AccuraQatarSDK: NSObject {
             
         }
 
-        FirebaseApp.configure()
+//        FirebaseApp.configure()
     }
 }

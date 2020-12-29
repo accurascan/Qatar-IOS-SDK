@@ -1,7 +1,8 @@
 
 import UIKit
 import CoreData
-import Firebase
+//import Firebase
+import AccuraQatar
 //list of Page Type
 public enum NAV_PAGETYPE: Int {
     case Default

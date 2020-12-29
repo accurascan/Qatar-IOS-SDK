@@ -6,7 +6,7 @@ target 'AccuraQatarDemo' do
   use_frameworks!
 
   # Pods for AccuraQatarDemo
-	pod 'Firebase/MLVision'
+	pod 'Firebase/MLVision','6.34.0'
  	pod 'SVProgressHUD'
 	pod 'Alamofire' , '4.9.0'
 

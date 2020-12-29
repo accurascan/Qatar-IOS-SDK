@@ -3,36 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>977093574035-23c0osqem052kk61bf2ciijj1kp832dl.apps.googleusercontent.com</string>
+	<string>814632241316-3edubsju0cgiaitgoqdt6uvnbo7751pc.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.977093574035-23c0osqem052kk61bf2ciijj1kp832dl</string>
+	<string>com.googleusercontent.apps.814632241316-3edubsju0cgiaitgoqdt6uvnbo7751pc</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>977093574035-8jjhio15d5vsm9pi6qm6f54itlrisgop.apps.googleusercontent.com</string>
+	<string>814632241316-36tdf7k6tt897lvt0uvkoveeptgo0qme.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCYICN12dtoi19ATKGAEAfYGSZPDBGkm4A</string>
+	<string>AIzaSyCPNre4TcaZydEstL4XNqWRUx6gQnwFXTg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>977093574035</string>
+	<string>814632241316</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.demo.AccuraOCRSDK</string>
+	<string>com.accurascan.accuraqatar</string>
 	<key>PROJECT_ID</key>
-	<string>accura-261808</string>
+	<string>accurascan-4039e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>accura-261808.appspot.com</string>
+	<string>accurascan-4039e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:977093574035:ios:1dd4fd3363ac4686a63c66</string>
+	<string>1:814632241316:ios:addc3d944fdd761f93be31</string>
 	<key>DATABASE_URL</key>
-	<string>https://accura-261808.firebaseio.com</string>
+	<string>https://accurascan-4039e.firebaseio.com</string>
 </dict>
 </plist>

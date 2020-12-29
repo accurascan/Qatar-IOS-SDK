@@ -68,7 +68,7 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
             }
             if(self.isMRZCell)
             {
-                self.arrCountryList.add("Passport & ID MRZ")
+                self.arrCountryList.add("Passport MRZ")
             }
             let countryListStr = self.accuraCameraWrapper?.getOCRList()
             if(countryListStr != nil)

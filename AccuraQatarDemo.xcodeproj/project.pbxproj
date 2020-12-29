@@ -57,7 +57,7 @@
 		A33E205723E2B439004FED85 /* CountryNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E205623E2B439004FED85 /* CountryNameViewController.swift */; };
 		A384904724A61EC700ECB42D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A384904624A61EC700ECB42D /* README.md */; };
 		A3A6A7EC25961302006E319C /* AccuraQatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; };
-		A3A6A7ED25961302006E319C /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3A6A7ED25961302006E319C /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A38EC38D25710C70007403A5 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A3F172C2242250F30050FB25 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F172C1242250F30050FB25 /* Launch Screen.storyboard */; };
 		FAD8829923DDE04E007247EC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8829623DDE04E007247EC /* MainStoryboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
@@ -584,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";
@@ -645,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";

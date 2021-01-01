@@ -299,7 +299,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedbackTextSize(feedbackTextSize: 18)
         Liveness.setFeedBackframeMessage(feedBackframeMessage: "Frame Your Face")
         Liveness.setFeedBackAwayMessage(feedBackAwayMessage: "Move Phone Away")
-        Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Open Your Eyes")
+        Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Your Eyes Open")
         Liveness.setFeedBackCloserMessage(feedBackCloserMessage: "Move Phone Closer")
         Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Center Your Face")
         Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple face detected")
@@ -453,8 +453,11 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 break
                 
             case 2:
-                dict = [KEY_VALUE: lines] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if lines != ""{
+                    dict = [KEY_VALUE: lines] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
                 break
             case 3:
                 var firstLetter: String = ""
@@ -483,111 +486,155 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         dType = "ID"
                     }
                 }
-                dict = [KEY_VALUE: dType,KEY_TITLE:"Document"] as [String : AnyObject]
+                dict = [KEY_VALUE: dType,KEY_TITLE:"Document Type"] as [String : AnyObject]
                 arrDocumentData.append(dict)
                 break
             case 4:
-                dict = [KEY_VALUE: surName,KEY_TITLE:"Last Name"] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if givenNames != ""{
+                    dict = [KEY_VALUE: givenNames,KEY_TITLE:"First Name"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
                 break
             case 5:
-                dict = [KEY_VALUE: givenNames,KEY_TITLE:"First Name"] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if surName != ""{
+                    dict = [KEY_VALUE: surName,KEY_TITLE:"Last Name"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+               
                 break
             case 6:
-                let stringWithoutSpaces = passportNumber.replacingOccurrences(of: "<", with: "")
-                dict = [KEY_VALUE: stringWithoutSpaces,KEY_TITLE:"Document No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if passportNumber != ""{
+                    let stringWithoutSpaces = passportNumber.replacingOccurrences(of: "<", with: "")
+                    dict = [KEY_VALUE: stringWithoutSpaces,KEY_TITLE:"Document No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
             case 7:
-                dict = [KEY_VALUE: passportNumberChecksum,KEY_TITLE:"Document Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if passportNumberChecksum != ""{
+                    dict = [KEY_VALUE: passportNumberChecksum,KEY_TITLE:"Document Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
                 break
             
             case 8:
-                dict = [KEY_VALUE: correctPassportChecksum,KEY_TITLE:"Correct Document Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if correctPassportChecksum != ""{
+                    dict = [KEY_VALUE: correctPassportChecksum,KEY_TITLE:"Correct Document Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
                 break
                 
             case 9:
-                dict = [KEY_VALUE: country,KEY_TITLE:"Country"] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if country != ""{
+                    dict = [KEY_VALUE: country,KEY_TITLE:"Country"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
                 break
             case 10:
-                dict = [KEY_VALUE: nationality,KEY_TITLE:"Nationality"] as [String : AnyObject]
-                arrDocumentData.append(dict)
+                if nationality != ""{
+                    dict = [KEY_VALUE: nationality,KEY_TITLE:"Nationality"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
                 break
             case 11:
                 var stSex: String = ""
                 if sex == "F" {
                     stSex = "FEMALE";
-                }
-                if sex == "M" {
+                }else if sex == "M" {
                     stSex = "MALE";
+                } else {
+                    stSex = sex
                 }
-                dict = [KEY_VALUE: sex,KEY_TITLE:"Sex"] as [String : AnyObject]
+                dict = [KEY_VALUE: stSex,KEY_TITLE:"Sex"] as [String : AnyObject]
                 arrDocumentData.append(dict)
                 break
             case 12:
-                dict = [KEY_VALUE: date(toFormatedDate: birth),KEY_TITLE:"Date of Birth"] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-            case 13:
-                dict = [KEY_VALUE: birthChecksum,KEY_TITLE:"Birth Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-             
-            case 14:
-                dict = [KEY_VALUE: correctBirthChecksum,KEY_TITLE:"Correct Birth Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 15:
-                dict = [KEY_VALUE: date(toFormatedDate: expirationDate),KEY_TITLE:"Date of Expiry"] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 16:
-                dict = [KEY_VALUE: expirationDateChecksum,KEY_TITLE:"Expiration Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 17:
-                dict = [KEY_VALUE: correctExpirationChecksum,KEY_TITLE:"Correct Expiration Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-            case 18:
-                dict = [KEY_VALUE: personalNumber,KEY_TITLE:"Other ID"] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-            case 19:
-                dict = [KEY_VALUE: personalNumberChecksum,KEY_TITLE:"Other ID Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-           
-            case 20:
-                dict = [KEY_VALUE: correctPersonalChecksum,KEY_TITLE:"Correct Other ID Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 21:
-                dict = [KEY_VALUE: secondRowChecksum,KEY_TITLE:"Second Row Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 22:
-                dict = [KEY_VALUE: correctSecondrowChecksum,KEY_TITLE:"Correct Second Row Check No."] as [String : AnyObject]
-                arrDocumentData.append(dict)
-                break
-                
-            case 23:
-                if issuedate != ""{
-                    dict = [KEY_VALUE: issuedate,KEY_TITLE:"Issue Date"] as [String : AnyObject]
+                if birth != ""{
+                    dict = [KEY_VALUE: date(toFormatedDate: birth),KEY_TITLE:"Date of Birth"] as [String : AnyObject]
                     arrDocumentData.append(dict)
                 }
                 break
-            case 24:
+            case 13:
+                if birthChecksum != ""{
+                    dict = [KEY_VALUE: birthChecksum,KEY_TITLE:"Birth Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
+                break
+             
+            case 14:
+                if correctBirthChecksum != ""{
+                    dict = [KEY_VALUE: correctBirthChecksum,KEY_TITLE:"Correct Birth Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
+                break
+                
+            case 15:
+                if expirationDate != ""{
+                    dict = [KEY_VALUE: date(toFormatedDate: expirationDate),KEY_TITLE:"Date of Expiry"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 16:
+                if expirationDateChecksum != ""{
+                    dict = [KEY_VALUE: expirationDateChecksum,KEY_TITLE:"Expiration Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 17:
+                if correctExpirationChecksum != ""{
+                    dict = [KEY_VALUE: correctExpirationChecksum,KEY_TITLE:"Correct Expiration Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                
+                break
+            case 18:
+                if issuedate != ""{
+                    dict = [KEY_VALUE: date(toFormatedDate: issuedate),KEY_TITLE:"Issue Date"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 19:
                 if departmentNumber != ""{
                     dict = [KEY_VALUE: departmentNumber,KEY_TITLE:"Department No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 20:
+                if personalNumber != ""{
+                    dict = [KEY_VALUE: personalNumber,KEY_TITLE:"Other ID"] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+            case 21:
+                if personalNumberChecksum != ""{
+                    dict = [KEY_VALUE: personalNumberChecksum,KEY_TITLE:"Other ID Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+            case 22:
+                if correctPersonalChecksum != ""{
+                    dict = [KEY_VALUE: correctPersonalChecksum,KEY_TITLE:"Correct Other ID Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 23:
+                if secondRowChecksum != ""{
+                    dict = [KEY_VALUE: secondRowChecksum,KEY_TITLE:"Second Row Check No."] as [String : AnyObject]
+                    arrDocumentData.append(dict)
+                }
+                break
+                
+            case 24:
+                if correctSecondrowChecksum != ""{
+                    dict = [KEY_VALUE: correctSecondrowChecksum,KEY_TITLE:"Correct Second Row Check No."] as [String : AnyObject]
                     arrDocumentData.append(dict)
                 }
                 break

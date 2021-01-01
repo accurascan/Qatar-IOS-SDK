@@ -23,16 +23,21 @@ Step 1: Add license file in to your project. <br />
             - key.license // for Accura Qatar <br />
             Generate your Accura license from https://accurascan.com/developer/sdk-license<br />
             
-Step 2: Add 'AccuraQatar.framework' into your project root directory
+Step 2: Add `AccuraQatar.framework` (Xcode compatible version 12.0.1)into your project root directory
             
-Step 3: Add AccuraQatarSDK.swift file in your project.<br /> 
+Step 3: Add `AccuraQatarSDK.swift` file in your project.<br /> 
 
-Step 4: In Appdelegate.swift file add <br />
+Step 4: add in `Appdelegate.swift` file  <br />
 
 ```
+let accuracamerawrapper:AccuraCameraWrapper? = nil
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     AccuraQatarSDK.configure()    
     return true
+}
+
+func applicationWillEnterForeground(_ application: UIApplication) {
+	accuracamerawrapper?.refreshPreview()
 }
 ```
 Step 5 : To initialize sdk on app start:
@@ -201,7 +206,11 @@ extension ViewController: VideoCameraWrapperDelegate{
         	message = "MRZ not detected"
     	} else if messageCode == ACCURA_ERROR_CODE_PASSPORT_MRZ {
         	message = "Passport MRZ not detected"
-    	} else if messageCode == ACCURA_ERROR_CODE_RETRYING {
+    	} else if messageCode == ACCURA_ERROR_CODE_WRONG_SIDE {
+			message = "Scanning wrong side of Document"
+		} else if messageCode == ACCURA_ERROR_CODE_IMAGE_ROTATE {
+			message = "Document is upside down. Place it properly"
+		} else if messageCode == ACCURA_ERROR_CODE_RETRYING {
             message = "Retrying..."
         } else {
         	message = ""
@@ -215,20 +224,24 @@ Contact to connect@accurascan.com to get Url for liveness
             
 Step 1: Open camera for liveness Detectcion.
 ```
-	//set liveness url
-	Liveness.setLivenessURL(livenessURL: "/*Your URL*/")
+//set liveness url
+Liveness.setLivenessURL(livenessURL: "/*Your URL*/")
     
-   	// To customize your screen theme and feed back messages
-    Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
-    Liveness.setCloseIconColor(closeIconColor: "#000000")
-    Liveness.setFeedbackBackGroundColor(feedbackBackGroundColor: "#C4C4C5")
-    Liveness.setFeedbackTextColor(feedbackTextColor: "#000000")
-    Liveness.setFeedbackTextSize(feedbackTextSize: 18)
-    Liveness.setFeedBackframeMessage(feedBackframeMessage: "Frame Your Face")
-    Liveness.setFeedBackAwayMessage(feedBackAwayMessage: "Move Phone Away")
-    Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Open Your Eyes")
-    Liveness.setFeedBackCloserMessage(feedBackCloserMessage: "Move Phone Closer")
-    Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Center Your Face")
+// To customize your screen theme and feed back messages
+Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
+Liveness.setCloseIconColor(closeIconColor: "#000000")
+Liveness.setFeedbackBackGroundColor(feedbackBackGroundColor: "#C4C4C5")
+Liveness.setFeedbackTextColor(feedbackTextColor: "#000000")
+Liveness.setFeedbackTextSize(feedbackTextSize: 18)
+Liveness.setFeedBackframeMessage(feedBackframeMessage: "Frame Your Face")
+Liveness.setFeedBackAwayMessage(feedBackAwayMessage: "Move Phone Away")
+Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Your Eyes Open")
+Liveness.setFeedBackCloserMessage(feedBackCloserMessage: "Move Phone Closer")
+Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Center Your Face")
+Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple face detected")
+Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
+Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
+Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
     
 ```
 Step 2: Handle Accura liveness Result

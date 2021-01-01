@@ -62,6 +62,7 @@
 -(void)setBlurPercentage:(int)blur;
 -(void)showLogFile:(bool)isShowLogs;
 - (void)saveLogToFile:(NSString *)msg;
+-(void) refreshPreview;
 //-(void) reco_msg1:(string)imgo
 
 

@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property BOOL _isMRZEnable;
 @property BOOL _isOCREnable;
 @property BOOL _isPDF417Enable;
+@property NSString * _message;
 
 @end
 

@@ -416,7 +416,7 @@ extension ViewController: VideoCameraWrapperDelegate {
         } else if messageCode == ACCURA_ERROR_CODE_RETRYING {
             lblOCRMsg.text = "Retrying..."
         } else {
-            lblOCRMsg.text = ""
+            lblOCRMsg.text = messageCode
         }
     }
     

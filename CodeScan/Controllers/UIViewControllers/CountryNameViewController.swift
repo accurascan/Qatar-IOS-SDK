@@ -47,6 +47,7 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
         viewStatusBar.backgroundColor = UIColor(red: 231.0 / 255.0, green: 52.0 / 255.0, blue: 74.0 / 255.0, alpha: 1.0)
         viewNavigationBar.backgroundColor = UIColor(red: 231.0 / 255.0, green: 52.0 / 255.0, blue: 74.0 / 255.0, alpha: 1.0)
         accuraCameraWrapper = AccuraCameraWrapper.init()
+        accuraCameraWrapper?.setDefaultDialogs(true)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             let sdkModel = self.accuraCameraWrapper?.loadEngine(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String)
             if(sdkModel != nil)
@@ -83,8 +84,8 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
             
              if(sdkModel != nil){
              if sdkModel!._i > 0{
-//                 self.accuraCameraWrapper?.setBlurPercentage(60)
-                 self.accuraCameraWrapper?.setFaceBlurPercentage(80)
+                 self.accuraCameraWrapper?.setBlurPercentage(65)
+                 self.accuraCameraWrapper?.setFaceBlurPercentage(85)
                  self.accuraCameraWrapper?.setHologramDetection(true)
                  self.accuraCameraWrapper?.setLowLightTolerance(10)
                  self.accuraCameraWrapper?.setMotionThreshold(9)

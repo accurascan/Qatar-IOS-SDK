@@ -291,7 +291,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         ischeckOneTime = true
 
-        Liveness.setLivenessURL(livenessURL: /*"Your URL"*/"")
+        Liveness.setLivenessURL(livenessURL: "Your URL")
         Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
         Liveness.setCloseIconColor(closeIconColor: "#000000")
         Liveness.setFeedbackBackGroundColor(feedbackBackGroundColor: "#C4C4C5")
@@ -794,10 +794,14 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
 
                 if livenessValue != ""{
                     cell.lblValueLiveness.text = livenessValue
+                } else {
+                    cell.lblValueLiveness.text = "0.00 %"
                 }
                 
                 if faceScoreData != ""{
                     cell.lblValueFaceMatch.text = "\(faceScoreData) %"
+                } else {
+                    cell.lblValueFaceMatch.text = "0.00 %"
                 }
                 
                 
@@ -940,10 +944,14 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 
                 if livenessValue != ""{
                     cell.lblValueLiveness.text = livenessValue
+                } else {
+                    cell.lblValueLiveness.text = "0.00 %"
                 }
                 
                 if faceScoreData != ""{
                     cell.lblValueFaceMatch.text = "\(faceScoreData) %"
+                } else {
+                    cell.lblValueFaceMatch.text = "0.00 %"
                 }
             
                 return cell
@@ -1327,7 +1335,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool) {
         isFLpershow = true
         self.livenessValue = stLivenessValue
-        
+        imgCamaraFace = livenessImage
         if status == false{
             GlobalMethods.showAlertView("Please try again", with: self)
         }

@@ -52,6 +52,8 @@
 	<string>App needs to access camera to scan your document and provide you with accurate redsult</string>
 	<key>UILaunchImageFile~ipad</key>
 	<string>LaunchImagedata</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIRequiredDeviceCapabilities</key>

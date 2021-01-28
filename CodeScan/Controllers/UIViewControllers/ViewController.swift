@@ -97,8 +97,11 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(ChangedOrientation), name: UIDevice.orientationDidChangeNotification, object: nil)
         var width : CGFloat = 0
         var height : CGFloat = 0
+        let window = UIApplication.shared.windows.first
+        let bottomPadding = window!.safeAreaInsets.bottom
+        let statusBarRect = UIApplication.shared.statusBarFrame
         width = UIScreen.main.bounds.size.width
-        height = UIScreen.main.bounds.size.height
+        height = (UIScreen.main.bounds.size.height - statusBarRect.height - bottomPadding)
         width = width * 0.95
         height = height * 0.35
         _constant_width.constant = width
@@ -243,7 +246,11 @@ class ViewController: UIViewController {
         var width: CGFloat = 0.0
         var height: CGFloat = 0.0
         width = UIScreen.main.bounds.size.width * 0.95
-        height = UIScreen.main.bounds.size.height * 0.35
+        let window = UIApplication.shared.windows.first
+        let bottomPadding = window!.safeAreaInsets.bottom
+        let topPadding = window!.safeAreaInsets.top
+        let statusBarRect = UIApplication.shared.statusBarFrame
+        height  = (UIScreen.main.bounds.size.height - (bottomPadding + topPadding + statusBarRect.height)) * 0.35
         _constant_width.constant = width
         _constant_height.constant = height
         DispatchQueue.main.async {

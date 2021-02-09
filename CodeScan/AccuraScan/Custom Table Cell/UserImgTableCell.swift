@@ -6,6 +6,8 @@ class UserImgTableCell: UITableViewCell {
     @IBOutlet weak var user_img: UIImageView!
     @IBOutlet weak var User_img2: UIImageView!
     
+    @IBOutlet weak var view_User2_width: NSLayoutConstraint!
+//    @IBOutlet weak var user_img2_width: NSLayoutConstraint!
     @IBOutlet weak var view2: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()

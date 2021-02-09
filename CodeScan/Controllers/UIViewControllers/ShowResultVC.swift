@@ -307,6 +307,8 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedBackLowLightMessage(feedBackLowLightMessage: "Low light detected")
         Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
         Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
+        Liveness.setBlurPercentage(blurPercentage: 75)
+        Liveness.setGlarepercentage(glareMin: -1, glareMax: 99)
         //Set TableView Height
         self.tblResult.estimatedRowHeight = 60.0
         self.tblResult.rowHeight = UITableView.automaticDimension
@@ -774,6 +776,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 if imgCamaraFace != nil{
                     cell.view2.isHidden = false
                     cell.User_img2.isHidden = false
+//                    cell.user_img2_width.constant = (imgCamaraFace?.size.width)!
                     cell.User_img2.image = imgCamaraFace
                     cell.User_img2.contentMode = .scaleAspectFit
                 }
@@ -1332,12 +1335,12 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     
-    func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool) {
+    func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String) {
         isFLpershow = true
         self.livenessValue = stLivenessValue
         imgCamaraFace = livenessImage
         if status == false{
-            GlobalMethods.showAlertView("Please try again", with: self)
+            GlobalMethods.showAlertView(errorMessage, with: self)
         }
         
         if (faceRegion != nil)

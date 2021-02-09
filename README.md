@@ -144,6 +144,9 @@ override func viewDidLoad() {
     		}
     	}
     }
+    //Set minimum frame for frontside scan
+    //call this function before start camera
+    accuraCameraWrapper?.setMinFrameForValidate(3) // Supports only odd number values
 }
     
 override func viewDidAppear(_ animated: Bool) {
@@ -225,7 +228,7 @@ Contact to connect@accurascan.com to get Url for liveness
 Step 1: Open camera for liveness Detectcion.
 ```
 //set liveness url
-Liveness.setLivenessURL(livenessURL: "/*Your URL*/")
+Liveness.setLivenessURL(livenessURL: "Your URL")
     
 // To customize your screen theme and feed back messages
 Liveness.setBackGroundColor(backGroundColor: "#C4C4C5")
@@ -242,11 +245,19 @@ Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple f
 Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
 Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
 Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
+Liveness.setBlurepercentage(blurPercentage: 75) // set blure percentage -1 to remove this filter
+Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remove this filter
     
 ```
 Step 2: Handle Accura liveness Result
 ```
- 	func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool)
+func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String) {
+    // stlivenessValue:- liveness score
+    // livenessImage:- face image
+    // status:- if status is true to success otherwise fails
+    // errorMessage:- shows liveness failure message
+    
+}
 ```
 
 ## 3. Setup Accura Face Match

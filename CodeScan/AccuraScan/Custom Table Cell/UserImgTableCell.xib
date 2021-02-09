@@ -50,12 +50,12 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.94501525163650513" green="0.94515103101730347" blue="0.94498568773269653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Ew2-cx-6Ik" firstAttribute="leading" secondItem="g69-AH-8UK" secondAttribute="leading" constant="2" id="1kf-NW-4d3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ew2-cx-6Ik" secondAttribute="trailing" constant="2" id="GzW-LP-W8m"/>
                                     <constraint firstAttribute="height" constant="120" id="UZY-GJ-nbI"/>
                                     <constraint firstAttribute="bottom" secondItem="Ew2-cx-6Ik" secondAttribute="bottom" constant="2" id="X4M-Hp-hKJ"/>
                                     <constraint firstAttribute="width" constant="120" id="f0k-fF-vC5"/>
                                     <constraint firstItem="Ew2-cx-6Ik" firstAttribute="top" secondItem="g69-AH-8UK" secondAttribute="top" constant="2" id="kG2-lh-d1Z"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ew2-cx-6Ik" secondAttribute="trailing" constant="2" id="nZO-ph-BnN"/>
-                                    <constraint firstItem="Ew2-cx-6Ik" firstAttribute="leading" secondItem="g69-AH-8UK" secondAttribute="leading" constant="2" id="u6z-Rs-inG"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -77,6 +77,7 @@
                 <outlet property="User_img2" destination="Ew2-cx-6Ik" id="d0I-0m-pLW"/>
                 <outlet property="user_img" destination="hyU-WK-Psi" id="72S-AL-8jK"/>
                 <outlet property="view2" destination="g69-AH-8UK" id="LpS-GO-QHY"/>
+                <outlet property="view_User2_width" destination="f0k-fF-vC5" id="Vd7-aI-V4z"/>
             </connections>
             <point key="canvasLocation" x="133" y="94"/>
         </tableViewCell>

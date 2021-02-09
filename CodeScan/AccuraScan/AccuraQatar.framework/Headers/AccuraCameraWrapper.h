@@ -64,6 +64,9 @@
 -(void)showLogFile:(bool)isShowLogs;
 - (void)saveLogToFile:(NSString *)msg;
 -(void) refreshPreview;
+-(void)setMinFrameForValidate:(int)minFrame;
+-(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
+-(void)setLivenessBlurPercentage:(int)blur;
 //-(void) reco_msg1:(string)imgo
 
 

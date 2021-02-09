@@ -239,7 +239,9 @@ class ViewController: UIViewController {
         DispatchQueue.main.async {
             self._lblTitle.text = "Scan Front Side of Document"
         }
+        
         accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: _imageView, andLabelMsg: lblOCRMsg, andurl: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: Int32(cardid!), countryID: Int32(countryid!), isScanOCR: isCheckScanOCR, andLabelMsgTop: _lblTitle, andcardName: docName)
+        accuraCameraWrapper?.setMinFrameForValidate(3)
     }
     
     @objc private func ChangedOrientation() {

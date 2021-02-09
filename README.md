@@ -245,7 +245,11 @@ Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple f
 Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
 Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
 Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
+
+// 0 for clean face and 100 for Blurry face
 Liveness.setBlurepercentage(blurPercentage: 75) // set blure percentage -1 to remove this filter
+
+// Set min and max percentage for glare
 Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remove this filter
     
 ```

@@ -67,13 +67,13 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
  * Set Blur Percentage to allow blur on document
 ```
 // 0 for clean document and 100 for Blurry document
-accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/60); 
+accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/70); 
 ```
 
 * Set Blur Face Percentage to allow blur on detected Face
 ```
 // 0 for clean face and 100 for Blurry face
-accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/80);
+accuraCameraWrapper?.setFaceBlurPercentage(int /*faceBlurPercentage*/90);
 ```
     
 * Set Glare Percentage to detect Glare on document
@@ -247,7 +247,7 @@ Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over
 Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
 
 // 0 for clean face and 100 for Blurry face
-Liveness.setBlurepercentage(blurPercentage: 75) // set blure percentage -1 to remove this filter
+Liveness.setBlurepercentage(blurPercentage: 80) // set blure percentage -1 to remove this filter
 
 // Set min and max percentage for glare
 Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remove this filter

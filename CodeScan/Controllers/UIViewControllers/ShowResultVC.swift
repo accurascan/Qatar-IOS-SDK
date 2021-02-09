@@ -307,7 +307,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedBackLowLightMessage(feedBackLowLightMessage: "Low light detected")
         Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
         Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
-        Liveness.setBlurPercentage(blurPercentage: 75)
+        Liveness.setBlurPercentage(blurPercentage: 80)
         Liveness.setGlarepercentage(glareMin: -1, glareMax: 99)
         //Set TableView Height
         self.tblResult.estimatedRowHeight = 60.0
@@ -916,11 +916,6 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 if let imageFace: UIImage =  dictResultData[KEY_FACE_IMAGE]  as? UIImage{
                     cell.User_img2.isHidden = true
                     cell.view2.isHidden = true
-                    if (UIDevice.current.orientation == .landscapeRight) {
-                        cell.user_img.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi / 2))
-                    } else if (UIDevice.current.orientation == .landscapeLeft) {
-                        cell.user_img.transform = CGAffineTransform(rotationAngle: CGFloat(-(Double.pi / 2)))
-                    }
                     cell.user_img.image = imageFace
                 }
                 

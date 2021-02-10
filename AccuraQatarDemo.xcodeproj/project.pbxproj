@@ -56,7 +56,7 @@
 		A33E205023E2AA78004FED85 /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204923E2AA78004FED85 /* ListTableCell.swift */; };
 		A33E205723E2B439004FED85 /* CountryNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E205623E2B439004FED85 /* CountryNameViewController.swift */; };
 		A33FA64525BFD09000446FB7 /* AccuraQatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33FA64325BFD08700446FB7 /* AccuraQatar.framework */; };
-		A33FA64625BFD09000446FB7 /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A33FA64325BFD08700446FB7 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A33FA64625BFD09000446FB7 /* AccuraQatar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A33FA64325BFD08700446FB7 /* AccuraQatar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A384904724A61EC700ECB42D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A384904624A61EC700ECB42D /* README.md */; };
 		A3F172C2242250F30050FB25 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F172C1242250F30050FB25 /* Launch Screen.storyboard */; };
 		FAD8829923DDE04E007247EC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8829623DDE04E007247EC /* MainStoryboard_iPhone.storyboard */; };
@@ -675,7 +675,7 @@
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JA79VPTEAU;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/..\"",
@@ -738,7 +738,7 @@
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JA79VPTEAU;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (

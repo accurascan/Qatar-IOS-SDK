@@ -33,4 +33,5 @@ typedef NS_ENUM(NSUInteger, RecogType) {
 -(void)screenSound;
 -(void)livenessData:(UIImage*)livenessImage andshowImage:(UIImage*)showImage;
 -(void)reco_msg:(NSString*)messageCode;
+-(void)OnAPIError:(NSString *)message;
 @end

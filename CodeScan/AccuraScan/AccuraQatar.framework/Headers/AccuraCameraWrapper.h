@@ -67,6 +67,7 @@
 -(void)setMinFrameForValidate:(int)minFrame;
 -(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
 -(void)setLivenessBlurPercentage:(int)blur;
+-(void)SetAPIData:(NSString*)URL APIKey:(NSString*)APIKey;
 //-(void) reco_msg1:(string)imgo
 
 

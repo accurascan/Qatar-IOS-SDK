@@ -25,4 +25,5 @@ FOUNDATION_EXPORT const unsigned char AccuraQatarVersionString[];
 #import "FaceView.h"
 #import "ImageHelper.h"
 
+#import "AccuraQatar/NSObject+PostResult.h"
 

@@ -488,7 +488,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         dType = "ID"
                     }
                 }
-                dict = [KEY_VALUE: dType,KEY_TITLE:"Document Type"] as [String : AnyObject]
+                dict = [KEY_VALUE: passportType,KEY_TITLE:"Document Type"] as [String : AnyObject]
                 arrDocumentData.append(dict)
                 break
             case 4:
@@ -1330,12 +1330,15 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     
-    func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String) {
+    func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String, APIErrorMessage: String) {
         isFLpershow = true
         self.livenessValue = stLivenessValue
         imgCamaraFace = livenessImage
         if status == false{
             GlobalMethods.showAlertView(errorMessage, with: self)
+        }
+        if(APIErrorMessage != "") {
+            GlobalMethods.showAlertView(APIErrorMessage, with: self)
         }
         
         if (faceRegion != nil)

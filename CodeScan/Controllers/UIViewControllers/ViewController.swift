@@ -429,4 +429,8 @@ extension ViewController: VideoCameraWrapperDelegate {
         }
     }
     
+    func onAPIError(_ message: String!) {
+        GlobalMethods.showAlertView(message, with: self)
+    }
+    
 }

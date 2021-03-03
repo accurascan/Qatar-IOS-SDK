@@ -107,6 +107,12 @@ accuraCameraWrapper?.setLowLightTolerance(int /*lowlighttolerance*/10);
 accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
 ```
 
+* Set API data
+    Make sure to call this function after loadEngine(..).
+```
+self.accuraCameraWrapper?.setAPIData("your server url", apiKey: "your server api key")
+```
+
 Step 6 : Set CameraView
 
  Important Grant Camera Permission.
@@ -220,6 +226,11 @@ extension ViewController: VideoCameraWrapperDelegate{
     	}
     	print(message)
 	}
+    
+    //it calls when get Error from API
+    func onAPIError(_ message: String!) {
+        GlobalMethods.showAlertView(message, with: self)
+    }
 
 ```
 ## 2. Setup Accura liveness
@@ -255,11 +266,12 @@ Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remo
 ```
 Step 2: Handle Accura liveness Result
 ```
-func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String) {
+func LivenessData(stLivenessValue: String, livenessImage: UIImage, status: Bool, errorMessage: String, APIErrorMessage: String) {
     // stlivenessValue:- liveness score
     // livenessImage:- face image
     // status:- if status is true to success otherwise fails
     // errorMessage:- shows liveness failure message
+    // APIErrorMessage:- get error from API Response
     
 }
 ```

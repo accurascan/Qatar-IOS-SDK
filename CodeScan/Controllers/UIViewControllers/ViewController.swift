@@ -197,6 +197,7 @@ class ViewController: UIViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
+        accuraCameraWrapper?.closeOCR()
     }
     
     override func viewWillDisappear(_ animated: Bool) {

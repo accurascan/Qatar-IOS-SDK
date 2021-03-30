@@ -82,10 +82,15 @@ class ViewController: UIViewController {
     
     var isFirstTimeStartCamara: Bool?
     var countface = 0
+//    let window = CGFloat()
+    var bottomPadding = CGFloat()
+    var topPadding = CGFloat()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let window = UIApplication.shared.windows.first
+        bottomPadding = window!.safeAreaInsets.bottom
+        topPadding = window!.safeAreaInsets.top
         // Do any additional setup after loading the view.
         
         isFirstTimeStartCamara = false
@@ -97,7 +102,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(ChangedOrientation), name: UIDevice.orientationDidChangeNotification, object: nil)
         var width : CGFloat = 0
         var height : CGFloat = 0
-        let window = UIApplication.shared.windows.first
+//        let window = UIApplication.shared.windows.first
         let bottomPadding = window!.safeAreaInsets.bottom
         let statusBarRect = UIApplication.shared.statusBarFrame
         width = UIScreen.main.bounds.size.width
@@ -249,9 +254,6 @@ class ViewController: UIViewController {
         var width: CGFloat = 0.0
         var height: CGFloat = 0.0
         width = UIScreen.main.bounds.size.width * 0.95
-        let window = UIApplication.shared.windows.first
-        let bottomPadding = window!.safeAreaInsets.bottom
-        let topPadding = window!.safeAreaInsets.top
         let statusBarRect = UIApplication.shared.statusBarFrame
         height  = (UIScreen.main.bounds.size.height - (bottomPadding + topPadding + statusBarRect.height)) * 0.35
         _constant_width.constant = width

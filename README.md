@@ -165,6 +165,12 @@ override func viewWillDisappear(_ animated: Bool) {
 	accuraCameraWrapper = nil
 	super.viewWillDisappear(animated)
 }
+
+override func viewDidDisappear(_ animated: Bool) {
+    super.viewDidDisappear(animated)
+    // Make sure call this function when view will disappear
+    accuraCameraWrapper?.closeOCR()
+}
     
     
 extension ViewController: VideoCameraWrapperDelegate{

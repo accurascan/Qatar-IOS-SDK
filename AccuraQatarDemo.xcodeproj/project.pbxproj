@@ -12,7 +12,6 @@
 		1835455424D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */; };
 		185646FC24EA45D600BFF300 /* accuraface.license in Resources */ = {isa = PBXBuildFile; fileRef = 185646FA24EA45D500BFF300 /* accuraface.license */; };
 		185646FD24EA45D600BFF300 /* key.license in Resources */ = {isa = PBXBuildFile; fileRef = 185646FB24EA45D600BFF300 /* key.license */; };
-		18829CD324C0638A00685500 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18829CD224C0638900685500 /* GoogleService-Info.plist */; };
 		5C67D9812111E40B00154EB7 /* default_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D9802111E40A00154EB7 /* default_user.png */; };
 		5C94E024211ACA8200428686 /* Aller_Std.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C94E01D211ACA8200428686 /* Aller_Std.ttf */; };
 		5C94E025211ACA8200428686 /* Aller_Std_BdIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C94E01E211ACA8200428686 /* Aller_Std_BdIt.ttf */; };
@@ -50,7 +49,6 @@
 		A324C4332476ED020002AE35 /* DocumentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324C42F2476ED020002AE35 /* DocumentTableCell.swift */; };
 		A324C4362476ED2E0002AE35 /* DocumantVarifyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A324C4342476ED2E0002AE35 /* DocumantVarifyCell.xib */; };
 		A324C4372476ED2E0002AE35 /* DocumantVarifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324C4352476ED2E0002AE35 /* DocumantVarifyCell.swift */; };
-		A33412F724AB63A500CECDCB /* AccuraQatarSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33412F624AB63A500CECDCB /* AccuraQatarSDK.swift */; };
 		A33E204B23E2AA78004FED85 /* ListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33E204423E2AA78004FED85 /* ListTableCell.xib */; };
 		A33E204E23E2AA78004FED85 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204723E2AA78004FED85 /* CountryListCell.swift */; };
 		A33E205023E2AA78004FED85 /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E204923E2AA78004FED85 /* ListTableCell.swift */; };
@@ -82,7 +80,6 @@
 		1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceMatchResultTableViewCell.xib; sourceTree = "<group>"; };
 		185646FA24EA45D500BFF300 /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
 		185646FB24EA45D600BFF300 /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
-		18829CD224C0638900685500 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraQatarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D96B2111E03500154EB7 /* Accura Scan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accura Scan-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C67D9802111E40A00154EB7 /* default_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_user.png; sourceTree = "<group>"; };
@@ -123,7 +120,6 @@
 		A324C42F2476ED020002AE35 /* DocumentTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentTableCell.swift; sourceTree = "<group>"; };
 		A324C4342476ED2E0002AE35 /* DocumantVarifyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumantVarifyCell.xib; sourceTree = "<group>"; };
 		A324C4352476ED2E0002AE35 /* DocumantVarifyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumantVarifyCell.swift; sourceTree = "<group>"; };
-		A33412F624AB63A500CECDCB /* AccuraQatarSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuraQatarSDK.swift; sourceTree = "<group>"; };
 		A33E204423E2AA78004FED85 /* ListTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableCell.xib; sourceTree = "<group>"; };
 		A33E204723E2AA78004FED85 /* CountryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
 		A33E204923E2AA78004FED85 /* ListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableCell.swift; sourceTree = "<group>"; };
@@ -231,7 +227,6 @@
 				6104CC7920BB4E6D00AC428E /* AppDelegate.swift */,
 				6104CC8320BB4E6E00AC428E /* Assets.xcassets */,
 				6104CC8820BB4E6E00AC428E /* Info.plist */,
-				18829CD224C0638900685500 /* GoogleService-Info.plist */,
 				A384904624A61EC700ECB42D /* README.md */,
 			);
 			path = CodeScan;
@@ -334,7 +329,6 @@
 		A38570ED2318020200FF7209 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A33412F624AB63A500CECDCB /* AccuraQatarSDK.swift */,
 				5C67D9802111E40A00154EB7 /* default_user.png */,
 			);
 			path = External;
@@ -430,7 +424,6 @@
 				5C94E026211ACA8200428686 /* Aller_Std_It.ttf in Resources */,
 				1835455424D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib in Resources */,
 				A3F172C2242250F30050FB25 /* Launch Screen.storyboard in Resources */,
-				18829CD324C0638A00685500 /* GoogleService-Info.plist in Resources */,
 				A324C4362476ED2E0002AE35 /* DocumantVarifyCell.xib in Resources */,
 				A384904724A61EC700ECB42D /* README.md in Resources */,
 				5C94E02A211ACA8200428686 /* AllerDisplay_Std_Rg.ttf in Resources */,
@@ -513,7 +506,6 @@
 				617EB0E120BB705D00BCBFD9 /* NSObjectExtensions.swift in Sources */,
 				1835455324D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift in Sources */,
 				A324C4302476ED020002AE35 /* UserImgTableCell.swift in Sources */,
-				A33412F724AB63A500CECDCB /* AccuraQatarSDK.swift in Sources */,
 				A324C4232476EC500002AE35 /* ShowResultVC.swift in Sources */,
 				5CC9862421180B9000A0E290 /* AppDelegate.swift in Sources */,
 				A33E204E23E2AA78004FED85 /* CountryListCell.swift in Sources */,

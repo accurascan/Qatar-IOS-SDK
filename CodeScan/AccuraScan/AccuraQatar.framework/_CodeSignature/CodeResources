@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		KdDGwzoNnQu7JQqVrD1EQ9xoFvo=
+		DUTXI0m+HfhnctrO97phYCMcPRo=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		NmUOX0g4UqA7Ls8IRbjKuW+ifLI=
+		COA9Syl2h3ei3a2+J3DFobK7UUY=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
 		<data>
-		p5zBygYZb06jM48OSJfzXICxl5w=
+		zjIbYx7Vjfte5qzK7nZdvgboGYI=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -80,9 +80,13 @@
 		<data>
 		6ny23cax5EGQNgpJKSnhJUhpxtQ=
 		</data>
+		<key>GoogleMVTextDetectorResources.bundle/tflite_langid.tflite</key>
+		<data>
+		7HSIAQWybgEckhODNRSbO0NA3oQ=
+		</data>
 		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
 		<data>
-		ixRR2K5ZEPmzRLTzVw1N8fzeIT0=
+		66UmXr+gf7XJ71vLnqjAwes9Mnw=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
 		<data>
@@ -102,7 +106,7 @@
 		</data>
 		<key>Headers/AccuraCameraWrapper.h</key>
 		<data>
-		nKL/ssb75oPrTO36DdJd2Igu7I4=
+		+xgyCGSNXP/bCiN5D0+17Tk6RAA=
 		</data>
 		<key>Headers/AccuraQatar-Swift.h</key>
 		<data>
@@ -146,7 +150,7 @@
 		</data>
 		<key>Headers/VideoCameraWrapperDelegate.h</key>
 		<data>
-		KZwtd9mBs8OpkUJBlYmIMK6SaLs=
+		zor0HneX45dDrl0ylaJHjbsqwdA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,11 +162,11 @@
 		</data>
 		<key>Liveness.storyboardc/LivenessVC.nib</key>
 		<data>
-		G94ufZf2NJkYDMl4mEjYXsfg68U=
+		kCQ+5uRf3ndR++/2b/buT1+19Zs=
 		</data>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib</key>
 		<data>
-		f/nlHtTMcySQCk0DECyxBWUslDU=
+		5FbGxtMC7hePz/CqskQy4YWbwpM=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -170,11 +174,11 @@
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qewqPEMcVRpyOLWOqN8+yPbu7U0=
+		6RGstxSd7gFt6SFAvp7aEZqMFZA=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kcAosD6rjOI9Q3q2xm2bvt5KfmU=
+		DUh68SQ9jL4NR5OTXIkSXdv+usI=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -182,11 +186,11 @@
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		qewqPEMcVRpyOLWOqN8+yPbu7U0=
+		6RGstxSd7gFt6SFAvp7aEZqMFZA=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kcAosD6rjOI9Q3q2xm2bvt5KfmU=
+		DUh68SQ9jL4NR5OTXIkSXdv+usI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -238,7 +242,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhrqDHZ5LxWBBcjafFoVUVMJ85u0N7VvXRhEAMJcWhU=
+			ZoI9pAfw+J//bcdF/pDdRBnD1jdX3sABN3JjMELSVnU=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -266,7 +270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pB+9CXEFQWUyj5sen+1LpMeVuC/cjT3Cuu8mYVZ6RZU=
+			4FHmfTYN1rVPnmu+21QrPbc0/xR4QV4XbybvzeC7I1Q=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -336,7 +340,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cx+WSwqcscINX0SmqH3ZTUqE6JljwVymmtwx72PPSmY=
+			9ww+fbcsMjfWA1Khg8oVFFtacMdr2vMRhp/1cback1A=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -360,11 +364,18 @@
 			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
 			</data>
 		</dict>
+		<key>GoogleMVTextDetectorResources.bundle/tflite_langid.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g9SKOS50SMnJHvaBluGbAxQB/e5FMKcbR06Hr6dF/n0=
+			</data>
+		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWAFDedH5yYOYcmXOrtzF8y39iXBQE6/iRjBKrvI7P4=
+			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
@@ -399,7 +410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			woKkxqpiUfe+UarWseHEr5oDf89vbBt/tyW8hKri4/Q=
+			/6wsBqdL62Ccn7YJW4eTCXGlrDB3E+/xJ1W9TpxOiCQ=
 			</data>
 		</dict>
 		<key>Headers/AccuraQatar-Swift.h</key>
@@ -476,7 +487,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c3ayvL3qXVJPi5P4YJqGp3YGPbpjKmpo6H7GDag3Bi0=
+			3LOYslCw75iiFGSO1vlfH8eVQVA+4ZMVQBODsqAJwVg=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/Info.plist</key>
@@ -490,14 +501,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ouA6SDPpX6VyNF6phfpLi3Nkd6LJVZg1ejnvgL8TAs0=
+			sR6pYQqFzTpqXCb5pEuVxVof7clPm2gH3klNKzmke9E=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZKNBjI5JrrUL417b34Mr/ky+YlxgCioU37PMnRQf6M=
+			VP2wolWQIGAYH953LyFbsX9tG8SGV/IoT40vhyocxUU=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -511,14 +522,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KBdVEY60OWx70Kl/1YZ4mHKj58Csao8vPshfPa+n28=
+			CtsJIcV07xc5hTO3Ty1xZYD3kJXeF8v5QQ3VKkQjoGE=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Yqy4dxkMgUi2BV1lW0IT2i+gld7Ty76mjjZxSeyX1g=
+			h39ixZhiEG7sn58yJGaBr3NKz1kxuytSdQyY3zbWPP8=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
@@ -532,14 +543,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KBdVEY60OWx70Kl/1YZ4mHKj58Csao8vPshfPa+n28=
+			CtsJIcV07xc5hTO3Ty1xZYD3kJXeF8v5QQ3VKkQjoGE=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Yqy4dxkMgUi2BV1lW0IT2i+gld7Ty76mjjZxSeyX1g=
+			h39ixZhiEG7sn58yJGaBr3NKz1kxuytSdQyY3zbWPP8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

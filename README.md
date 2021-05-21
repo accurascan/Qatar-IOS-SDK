@@ -24,23 +24,16 @@ Step 1: Add license file in to your project. <br />
             Generate your Accura license from https://accurascan.com/developer/sdk-license<br />
             
 Step 2: Add `AccuraQatar.framework` (Xcode compatible version 12.0.1)into your project root directory
-            
-Step 3: Add `AccuraQatarSDK.swift` file in your project.<br /> 
 
-Step 4: add in `Appdelegate.swift` file  <br />
+Step 3: add in `Appdelegate.swift` file  <br />
 
 ```
-let accuracamerawrapper:AccuraCameraWrapper? = nil
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    AccuraQatarSDK.configure()    
-    return true
-}
-
+let accuracamerawrapper = AccuraCameraWrapper()
 func applicationWillEnterForeground(_ application: UIApplication) {
 	accuracamerawrapper?.refreshPreview()
 }
 ```
-Step 5 : To initialize sdk on app start:
+Step 4 : To initialize sdk on app start:
 
 ```
 import AccuraQatar
@@ -113,7 +106,7 @@ accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*mes
 self.accuraCameraWrapper?.setAPIData("your server url", apiKey: "your server api key")
 ```
 
-Step 6 : Set CameraView
+Step 5 : Set CameraView
 
  Important Grant Camera Permission.
    

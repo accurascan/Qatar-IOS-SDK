@@ -4,7 +4,6 @@
 import AVFoundation
 @_exported import AccuraQatar
 import Alamofire
-import Firebase
 import Foundation
 import Swift
 import SystemConfiguration

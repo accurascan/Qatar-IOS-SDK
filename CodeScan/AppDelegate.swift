@@ -1,7 +1,6 @@
 
 import UIKit
 import CoreData
-//import Firebase
 import AccuraQatar
 //list of Page Type
 public enum NAV_PAGETYPE: Int {
@@ -28,14 +27,13 @@ let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     var window: UIWindow?
     var selectedScanType: NAV_SCANTYPE = .Default
-    let accuracamerawrapper:AccuraCameraWrapper? = nil
+    let accuracamerawrapper = AccuraCameraWrapper()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Thread.sleep(forTimeInterval: 0.0)
         
         UIApplication.shared.statusBarStyle = .lightContent
         
-        AccuraQatarSDK.configure()
         
         return true
     }
@@ -54,7 +52,7 @@ let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-        accuracamerawrapper?.refreshPreview()
+        accuracamerawrapper.refreshPreview()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

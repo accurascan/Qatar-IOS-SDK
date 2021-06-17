@@ -40,6 +40,7 @@
 		617EB0E120BB705D00BCBFD9 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */; };
 		9354D856AE477C0F63BC2473 /* Pods_AccuraQatarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */; };
 		A30ABDAA2487B29D0091362E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ABDA92487B29D0091362E /* ViewController.swift */; };
+		A3245BCF26732FB100F15854 /* FieldListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3245BCE26732FB100F15854 /* FieldListCollectionViewCell.swift */; };
 		A324C4232476EC500002AE35 /* ShowResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324C4222476EC4F0002AE35 /* ShowResultVC.swift */; };
 		A324C42A2476ECE50002AE35 /* ResultTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A324C4282476ECE50002AE35 /* ResultTableCell.xib */; };
 		A324C42B2476ECE50002AE35 /* ResultTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324C4292476ECE50002AE35 /* ResultTableCell.swift */; };
@@ -111,6 +112,7 @@
 		6104CC8820BB4E6E00AC428E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		A30ABDA92487B29D0091362E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3245BCE26732FB100F15854 /* FieldListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldListCollectionViewCell.swift; sourceTree = "<group>"; };
 		A324C4222476EC4F0002AE35 /* ShowResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowResultVC.swift; sourceTree = "<group>"; };
 		A324C4282476ECE50002AE35 /* ResultTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultTableCell.xib; sourceTree = "<group>"; };
 		A324C4292476ECE50002AE35 /* ResultTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableCell.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				A33E204423E2AA78004FED85 /* ListTableCell.xib */,
 				A324C4292476ECE50002AE35 /* ResultTableCell.swift */,
 				A324C4282476ECE50002AE35 /* ResultTableCell.xib */,
+				A3245BCE26732FB100F15854 /* FieldListCollectionViewCell.swift */,
 			);
 			path = "Custom Table Cell";
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				617EB0E120BB705D00BCBFD9 /* NSObjectExtensions.swift in Sources */,
 				1835455324D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift in Sources */,
 				A324C4302476ED020002AE35 /* UserImgTableCell.swift in Sources */,
+				A3245BCF26732FB100F15854 /* FieldListCollectionViewCell.swift in Sources */,
 				A324C4232476EC500002AE35 /* ShowResultVC.swift in Sources */,
 				5CC9862421180B9000A0E290 /* AppDelegate.swift in Sources */,
 				A33E204E23E2AA78004FED85 /* CountryListCell.swift in Sources */,

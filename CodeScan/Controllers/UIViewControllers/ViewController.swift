@@ -3,7 +3,7 @@ import UIKit
 import AVFoundation
 import AccuraQatar
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var _viewLayer: UIView!
     @IBOutlet weak var _imageView: UIImageView!
@@ -17,10 +17,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var viewStatusBar: UIView!
     @IBOutlet weak var viewNavigationBar: UIView!
+    @IBOutlet weak var collcetionViewFieldList: UICollectionView!
     
     var accuraCameraWrapper: AccuraCameraWrapper? = nil
     
     var shareScanningListing: NSMutableDictionary = [:]
+    var arrReuiredField = [String]()
+    var arrRecognizedField = [String]()
     
     var documentImage: UIImage? = nil
     var docfrontImage: UIImage? = nil
@@ -91,6 +94,8 @@ class ViewController: UIViewController {
         let window = UIApplication.shared.windows.first
         bottomPadding = window!.safeAreaInsets.bottom
         topPadding = window!.safeAreaInsets.top
+        collcetionViewFieldList.delegate = self
+        collcetionViewFieldList.dataSource = self
         // Do any additional setup after loading the view.
         
         isFirstTimeStartCamara = false
@@ -171,6 +176,9 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         countface = 0
+        arrReuiredField.removeAll()
+        arrRecognizedField.removeAll()
+        collcetionViewFieldList.reloadData()
         self.shareScanningListing.removeAllObjects()
         isBackSide = false
         isCheckMRZData = false
@@ -312,6 +320,12 @@ extension ViewController: VideoCameraWrapperDelegate {
     
     func screenSound() {
         self.flipAnimation()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.arrRecognizedField.removeAll()
+            self.arrReuiredField.removeAll()
+            self.collcetionViewFieldList.reloadData()
+        }
+       
         self._lblTitle.text! = "Scan Back side of \(self.docName)"
     }
     
@@ -356,6 +370,12 @@ extension ViewController: VideoCameraWrapperDelegate {
         
         }
     
+    func recognizeProcess(_ requiredFields: NSMutableArray!, recognizedFields: NSMutableArray!) {
+        arrReuiredField = requiredFields as! [String]
+        arrRecognizedField = recognizedFields as! [String]
+        collcetionViewFieldList.reloadData()
+    }
+ 
     
     func passDataOtherViewController(){
         let vc : ShowResultVC = self.storyboard?.instantiateViewController(withIdentifier: "ShowResultVC") as! ShowResultVC
@@ -427,6 +447,8 @@ extension ViewController: VideoCameraWrapperDelegate {
             lblOCRMsg.text = "Document is upside down. Place it properly"
         } else if messageCode == ACCURA_ERROR_CODE_RETRYING {
             lblOCRMsg.text = "Retrying..."
+        }else if messageCode == ACCURA_ERROR_CODE_MOVE_CARD {
+            lblOCRMsg.text = "Move your phone/card a little"
         } else {
             lblOCRMsg.text = messageCode
         }
@@ -434,6 +456,28 @@ extension ViewController: VideoCameraWrapperDelegate {
     
     func onAPIError(_ message: String!) {
         GlobalMethods.showAlertView(message, with: self)
+    }
+    
+    
+    //MARK:- collcetionView Delegate & DataSource Method
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return arrReuiredField.count
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell: FieldListCollectionViewCell = collcetionViewFieldList.dequeueReusableCell(withReuseIdentifier: "FieldListCollectionViewCell", for: indexPath) as! FieldListCollectionViewCell
+        cell.labelFielld.text = arrReuiredField[indexPath.row]
+        for addedField in arrRecognizedField {
+            if(addedField == arrReuiredField[indexPath.row]) {
+                cell.imageViewChecklist.image = UIImage(named: "checkbox_selected")
+                break;
+            } else {
+                cell.imageViewChecklist.image = UIImage(named: "checkbox_unselect")
+            }
+        }
+        return cell
     }
     
 }

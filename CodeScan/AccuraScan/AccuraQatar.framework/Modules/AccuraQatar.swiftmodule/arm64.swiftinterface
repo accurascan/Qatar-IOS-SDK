@@ -24,6 +24,7 @@ public let ACCURA_ERROR_CODE_PASSPORT_MRZ: Swift.String
 public let ACCURA_ERROR_CODE_RETRYING: Swift.String
 public let ACCURA_ERROR_CODE_WRONG_SIDE: Swift.String
 public let ACCURA_ERROR_CODE_IMAGE_ROTATE: Swift.String
+public let ACCURA_ERROR_CODE_MOVE_CARD: Swift.String
 @_hasMissingDesignatedInitializers open class SSASwiftReachability {
   @objc deinit
 }

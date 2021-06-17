@@ -185,6 +185,12 @@ extension ViewController: VideoCameraWrapperDelegate{
     	docFrontImage:- docFrontImage is a documant frontside image.
     	docbackImage:- docbackImage is a documant backside image.
 	}
+    
+    //it calls when detect fields from card while scanning
+    func recognizeProcess(_ requiredFields: NSMutableArray!, recognizedFields: NSMutableArray!) {
+      // requiredFields :- Array of required fields to scanned card
+      // recognizedFields :- Array of recognized fields fields to scanned card
+    }
 
 	func reco_msg(_ messageCode: String!) {
    		var message = String()
@@ -220,6 +226,8 @@ extension ViewController: VideoCameraWrapperDelegate{
 			message = "Document is upside down. Place it properly"
 		} else if messageCode == ACCURA_ERROR_CODE_RETRYING {
             message = "Retrying..."
+        } else if messageCode == ACCURA_ERROR_CODE_MOVE_CARD {
+            message = "Move your phone/card a little"
         } else {
         	message = ""
     	}

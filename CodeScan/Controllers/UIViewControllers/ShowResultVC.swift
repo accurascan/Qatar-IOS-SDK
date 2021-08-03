@@ -301,7 +301,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedBackAwayMessage(feedBackAwayMessage: "Move Phone Away")
         Liveness.setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: "Keep Your Eyes Open")
         Liveness.setFeedBackCloserMessage(feedBackCloserMessage: "Move Phone Closer")
-        Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Center Your Face")
+        Liveness.setFeedBackCenterMessage(feedBackCenterMessage: "Move Phone Center")
         Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple face detected")
         Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
         Liveness.setFeedBackLowLightMessage(feedBackLowLightMessage: "Low light detected")
@@ -309,6 +309,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
         Liveness.setBlurPercentage(blurPercentage: 80)
         Liveness.setGlarepercentage(glareMin: -1, glareMax: 99)
+        Liveness.setLowLightThreshHold(lowLightThreshhold: 10)
         //Set TableView Height
         self.tblResult.estimatedRowHeight = 60.0
         self.tblResult.rowHeight = UITableView.automaticDimension

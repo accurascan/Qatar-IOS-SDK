@@ -61,5 +61,6 @@ public protocol LivenessData {
   public static func setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: Swift.String)
   public static func setBlurPercentage(blurPercentage: Swift.Int)
   public static func setGlarepercentage(glareMin: Swift.Int, glareMax: Swift.Int)
+  public static func setLowLightThreshHold(lowLightThreshhold: Swift.Int)
   @objc deinit
 }

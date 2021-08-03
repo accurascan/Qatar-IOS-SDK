@@ -60,7 +60,7 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
  * Set Blur Percentage to allow blur on document
 ```
 // 0 for clean document and 100 for Blurry document
-accuraCameraWrapper?.setFaceBlurPercentage(int /*blurPercentage*/70); 
+accuraCameraWrapper?.setBlurPercentage(int /*blurPercentage*/70); 
 ```
 
 * Set Blur Face Percentage to allow blur on detected Face
@@ -84,7 +84,7 @@ accuraCameraWrapper?.setCheckPhotoCopy(bool /*isCheckPhotoCopy*/false);
 * Set Hologram detection to verify the hologram on the face
 ```
 // true to check hologram on face
-accuraCameraWrapper?.setHologramDetection(boolean /*isDetectHologram*/true);
+accuraCameraWrapper?.setHologramDetection(bool /*isDetectHologram*/true);
 ```
 
 * Set light tolerance to detect light on document
@@ -97,7 +97,7 @@ accuraCameraWrapper?.setLowLightTolerance(int /*lowlighttolerance*/10);
 ```
 // 1 - allows 1% motion on document and
 // 100 - it can not detect motion and allow document to scan.
-accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4 string /*message*/ "Keep Document Steady");
+accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4);
 ```
 
 * Set API data
@@ -263,12 +263,16 @@ Liveness.setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: "Multiple f
 Liveness.setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: "Keep Your Head Straight")
 Liveness.setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: "Blur detected over face")
 Liveness.setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: "Glare detected")
+Liveness.setFeedBackLowLightMessage(feedBackLowLightMessage: "Low light detected")
 
 // 0 for clean face and 100 for Blurry face
-Liveness.setBlurepercentage(blurPercentage: 80) // set blure percentage -1 to remove this filter
+Liveness.setBlurpercentage(blurPercentage: 80) // set blur percentage -1 to remove this filter
 
 // Set min and max percentage for glare
 Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remove this filter
+
+// Set Low light threshhold
+Liveness.setLowLightThreshHold(lowLightThreshhold: 10)
     
 ```
 Step 2: Handle Accura liveness Result

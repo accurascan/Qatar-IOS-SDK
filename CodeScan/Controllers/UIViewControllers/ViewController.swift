@@ -256,6 +256,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: _imageView, andLabelMsg: lblOCRMsg, andurl: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: Int32(cardid!), countryID: Int32(countryid!), isScanOCR: isCheckScanOCR, andLabelMsgTop: _lblTitle, andcardName: docName)
         accuraCameraWrapper?.setMinFrameForValidate(3)
+        accuraCameraWrapper?.setMinFrameQatarName_IDNo_Validate(5)
     }
     
     @objc private func ChangedOrientation() {
@@ -372,7 +373,10 @@ extension ViewController: VideoCameraWrapperDelegate {
     
     func recognizeProcess(_ requiredFields: NSMutableArray!, recognizedFields: NSMutableArray!) {
         arrReuiredField = requiredFields as! [String]
-        arrRecognizedField = recognizedFields as! [String]
+        if(recognizedFields != nil) {
+            arrRecognizedField = recognizedFields as! [String]
+        }
+       
         collcetionViewFieldList.reloadData()
     }
  
@@ -469,14 +473,19 @@ extension ViewController: VideoCameraWrapperDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: FieldListCollectionViewCell = collcetionViewFieldList.dequeueReusableCell(withReuseIdentifier: "FieldListCollectionViewCell", for: indexPath) as! FieldListCollectionViewCell
         cell.labelFielld.text = arrReuiredField[indexPath.row]
-        for addedField in arrRecognizedField {
-            if(addedField == arrReuiredField[indexPath.row]) {
-                cell.imageViewChecklist.image = UIImage(named: "checkbox_selected")
-                break;
-            } else {
-                cell.imageViewChecklist.image = UIImage(named: "checkbox_unselect")
+        if(arrRecognizedField.count > 0) {
+            for addedField in arrRecognizedField {
+                if(addedField == arrReuiredField[indexPath.row]) {
+                    cell.imageViewChecklist.image = UIImage(named: "checkbox_selected")
+                    break;
+                } else {
+                    cell.imageViewChecklist.image = UIImage(named: "checkbox_unselect")
+                }
             }
+        } else {
+            cell.imageViewChecklist.image = UIImage(named: "checkbox_unselect")
         }
+        
         return cell
     }
     

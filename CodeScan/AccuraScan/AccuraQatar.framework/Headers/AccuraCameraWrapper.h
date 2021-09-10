@@ -51,11 +51,13 @@
 - (void)saveLogToFile:(NSString *)msg;
 -(void) refreshPreview;
 -(void)setMinFrameForValidate:(int)minFrame;
+-(void)setMinFrameQatarName_IDNo_Validate:(int)minFrame;
 -(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
 -(void)setLivenessBlurPercentage:(int)blur;
 -(void)setLivenessLowLightTolerence:(int)lowLightThreshold;
 -(void)SetAPIData:(NSString*)URL APIKey:(NSString*)APIKey;
 - (void)CloseOCR;
+-(NSString *)getSDKVersion;
 
 
 @end

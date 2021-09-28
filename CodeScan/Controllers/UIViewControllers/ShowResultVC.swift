@@ -982,7 +982,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 //Set Document Images
                 let cell = tableView.dequeueReusableCell(withIdentifier: "DocumentTableCell") as! DocumentTableCell
                 cell.selectionStyle = .none
-                cell.imgDocument.contentMode = .scaleToFill
+                cell.imgDocument.contentMode = .scaleAspectFit
                 if dictResultData[KEY_DOC1_IMAGE] != nil {
                     if pageType == .ScanAadhar || pageType == .ScanPan{
                         cell.lblDocName.text = ""

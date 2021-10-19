@@ -105,6 +105,13 @@ accuraCameraWrapper?.setMotionThreshold(int /*setMotionThreshold*/4);
 ```
 self.accuraCameraWrapper?.setAPIData("your server url", apiKey: "your server api key")
 ```
+* Remove Brightness from Document
+```
+// Set doRemoveBrightness is true and set threshold to remove brightness from document
+// Make sure to call this function after loadEngine(..).
+// threshold value must be greater or equal to 200
+self.accuraCameraWrapper?.doRemoveBrightness(true, 200)
+```
 
 Step 5 : Set CameraView
 

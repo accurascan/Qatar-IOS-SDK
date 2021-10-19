@@ -55,6 +55,7 @@
 -(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
 -(void)setLivenessBlurPercentage:(int)blur;
 -(void)setLivenessLowLightTolerence:(int)lowLightThreshold;
+-(void)doRemoveBrightness:(bool)remove :(int)threshold;
 -(void)SetAPIData:(NSString*)URL APIKey:(NSString*)APIKey;
 - (void)CloseOCR;
 -(NSString *)getSDKVersion;

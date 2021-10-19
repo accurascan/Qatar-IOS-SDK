@@ -93,6 +93,7 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
                  self.accuraCameraWrapper?.setGlarePercentage(6, intMax: 99)
                  self.accuraCameraWrapper?.setCheckPhotoCopy(false)
                 self.accuraCameraWrapper?.setAPIData("YOUR URL", apiKey: "API KEY")
+                self.accuraCameraWrapper?.doRemoveBrightness(true, 200)
              }
             }
             

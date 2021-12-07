@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AccuraQatar
 import AVFoundation
 @_exported import AccuraQatar
@@ -8,6 +8,7 @@ import Foundation
 import Swift
 import SystemConfiguration
 import UIKit
+import _Concurrency
 public let ACCURA_ERROR_CODE_MOTION: Swift.String
 public let ACCURA_ERROR_CODE_DOCUMENT_IN_FRAME: Swift.String
 public let ACCURA_ERROR_CODE_BRING_DOCUMENT_IN_FRAME: Swift.String
@@ -31,14 +32,14 @@ public let ACCURA_ERROR_CODE_MOVE_CARD: Swift.String
 public protocol LivenessData {
   func LivenessData(stLivenessValue: Swift.String, livenessImage: UIKit.UIImage, status: Swift.Bool, errorMessage: Swift.String, APIErrorMessage: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ProgressSHD : UIKit.UICollectionViewLayoutAttributes {
-  open class func dismiss()
-  open class func show(_ status: Swift.String?)
-  open class func show(_ status: Swift.String?, _ interaction: Swift.Bool)
-  open class func showSuccess(_ status: Swift.String?)
-  open class func showSuccess(_ status: Swift.String?, _ interaction: Swift.Bool)
-  open class func showError(_ status: Swift.String?)
-  open class func showError(_ status: Swift.String?, _ interaction: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class ProgressSHD : UIKit.UICollectionViewLayoutAttributes {
+  @_Concurrency.MainActor(unsafe) open class func dismiss()
+  @_Concurrency.MainActor(unsafe) open class func show(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func show(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open class func showSuccess(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func showSuccess(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open class func showError(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func showError(_ status: Swift.String?, _ interaction: Swift.Bool)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Liveness {
@@ -62,5 +63,6 @@ public protocol LivenessData {
   public static func setBlurPercentage(blurPercentage: Swift.Int)
   public static func setGlarepercentage(glareMin: Swift.Int, glareMax: Swift.Int)
   public static func setLowLightThreshHold(lowLightThreshhold: Swift.Int)
+  public static func evaluateServerTrustWIthSSLPinning(isServerTrust: Swift.Bool)
   @objc deinit
 }

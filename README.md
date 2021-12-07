@@ -284,6 +284,10 @@ Liveness.setGlarepercentage(glareMin: 6, glareMax: 98) //set glaremin -1 to remo
 
 // Set Low light threshhold
 Liveness.setLowLightThreshHold(lowLightThreshhold: 10)
+
+// if you want to enable SSL certificate pinning for Liveness API set it true. 
+// if 'evaluateServerTrustWIthSSLPinning()' is true must have to add SSL Certificate of Your liveness API Server in Your Proeject's Root directory
+liveness.evaluateServerTrustWIthSSLPinning(true)
     
 ```
 Step 2: Handle Accura liveness Result

@@ -310,6 +310,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         Liveness.setBlurPercentage(blurPercentage: 80)
         Liveness.setGlarepercentage(glareMin: -1, glareMax: 99)
         Liveness.setLowLightThreshHold(lowLightThreshhold: 10)
+        Liveness.evaluateServerTrustWIthSSLPinning(isServerTrust: false)
         //Set TableView Height
         self.tblResult.estimatedRowHeight = 60.0
         self.tblResult.rowHeight = UITableView.automaticDimension

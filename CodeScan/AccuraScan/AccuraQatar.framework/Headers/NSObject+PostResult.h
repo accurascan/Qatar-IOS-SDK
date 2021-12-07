@@ -21,4 +21,5 @@ typedef void (^ProgressBlock)(NSMutableDictionary*);
 
 
 -(void) postMethodWithParamsAndImage:(NSMutableDictionary*)parameters forMethod: (NSString*)forMethod image:(UIImage*)image completion: (SuccessBlock)completion FailureBlock: (FailureBlock)FailureBlock;
+-(void) postMethodWithParamsAndImageLiveness:(NSMutableDictionary*)parameters forMethod: (NSString*)forMethod image:(UIImage*)image completion: (void (^)(NSMutableDictionary *tagText))completion FailureBlock: (FailureBlock)FailureBlock;
 @end

@@ -23,7 +23,7 @@ Step 1: Add license file in to your project. <br />
             - key.license // for Accura Qatar <br />
             Generate your Accura license from https://accurascan.com/developer/sdk-license<br />
             
-Step 2: Add `AccuraQatar.framework` (Xcode compatible version 12.0.1)into your project root directory
+Step 2: Add `AccuraQatar.framework` (Xcode compatible version 13.1)into your project root directory
 
 Step 3: add in `Appdelegate.swift` file  <br />
 

@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TQYXjGt91vlHbh3YAtkgeDiupxg=
+		dj7PNEpKdof2Lrs67zfXxF7Ar4U=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		COA9Syl2h3ei3a2+J3DFobK7UUY=
+		Q8pxIOtejxPFw127NYi9lXxEr4Q=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -64,42 +64,6 @@
 		<data>
 		RxtbTN3LjpFChp3tmniX3KD+dsE=
 		</data>
-		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
-		<data>
-		zjIbYx7Vjfte5qzK7nZdvgboGYI=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
-		<data>
-		V2ROSYH9TDZ87SKQfYmC78jkabg=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
-		<data>
-		W+TF/C0djllwb4ejtlbbwoqIOaA=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
-		<data>
-		6ny23cax5EGQNgpJKSnhJUhpxtQ=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_langid.tflite</key>
-		<data>
-		7HSIAQWybgEckhODNRSbO0NA3oQ=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
-		<data>
-		66UmXr+gf7XJ71vLnqjAwes9Mnw=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
-		<data>
-		68PK2+uslXMmEpqkRadeVy2t0PE=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
-		<data>
-		BQIj06B3MVer0TIFCE1lwPQqAQ8=
-		</data>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
-		<data>
-		oYS7+p9yJEEy3UOE1YgjDNNbLAM=
-		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
 		NfNWgYdQlmfvGO03T3YJvf4zGac=
@@ -110,7 +74,7 @@
 		</data>
 		<key>Headers/AccuraQatar-Swift.h</key>
 		<data>
-		kp8iDE1B2VRwetQfjN6Tbgfakl8=
+		+DQ2Hv7DZza86EC78sGi/PKijPc=
 		</data>
 		<key>Headers/AccuraQatar.h</key>
 		<data>
@@ -154,7 +118,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0f0e+W4N1PRISYDSmK/oAjZ5Qyc=
+		etL5h5ymin+y3NFAjGJ+k4URT58=
+		</data>
+		<key>LatinOCRResources.bundle/Info.plist</key>
+		<data>
+		bntagvjXMtYBlfOd+8rbK3+bBx8=
+		</data>
+		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
+		<data>
+		V2ROSYH9TDZ87SKQfYmC78jkabg=
+		</data>
+		<key>LatinOCRResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
+		<data>
+		W+TF/C0djllwb4ejtlbbwoqIOaA=
+		</data>
+		<key>LatinOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
+		<data>
+		6ny23cax5EGQNgpJKSnhJUhpxtQ=
+		</data>
+		<key>LatinOCRResources.bundle/tflite_langid.tflite</key>
+		<data>
+		/LcQXDvm1hHXPLE3IVulrhpZePE=
+		</data>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
+		<data>
+		66UmXr+gf7XJ71vLnqjAwes9Mnw=
+		</data>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
+		<data>
+		68PK2+uslXMmEpqkRadeVy2t0PE=
+		</data>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
+		<data>
+		BQIj06B3MVer0TIFCE1lwPQqAQ8=
+		</data>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
+		<data>
+		oYS7+p9yJEEy3UOE1YgjDNNbLAM=
 		</data>
 		<key>Liveness.storyboardc/Info.plist</key>
 		<data>
@@ -162,35 +162,19 @@
 		</data>
 		<key>Liveness.storyboardc/LivenessVC.nib</key>
 		<data>
-		fLwed25FmHySY/42We8PuDNl3rQ=
+		soQBpJdk00NG4rNkAI8JJwkNCIw=
 		</data>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib</key>
 		<data>
-		fqBgCkcP7ZrwFfH2kw0B+ImcTQo=
+		k1tulHWls8cUKPNfBx07PWiOLY8=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ExXm2f7qphpsB/wp4BajACZEvaw=
-		</data>
-		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		RHq/jiVmqJErnBpAU0LY8S34aSA=
+		Eg+1nzpExuRcmrnxlvI6VFAZQTM=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		v9Ng9SloVYr7ENFiihQ8nra3ajs=
-		</data>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		ExXm2f7qphpsB/wp4BajACZEvaw=
-		</data>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		RHq/jiVmqJErnBpAU0LY8S34aSA=
-		</data>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		v9Ng9SloVYr7ENFiihQ8nra3ajs=
+		EZOVNr5Sm+wEhGVO84rT5oRCx1Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -242,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xYHlFj8qKWqe5D5b4Ec/Ev79yIKVNy1AhnzHwjDq7k=
+			Gc4HLRmKeCRTnbdMmeOgi+Nw5QsRvYYaa73zRPLFDW8=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -270,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FHmfTYN1rVPnmu+21QrPbc0/xR4QV4XbybvzeC7I1Q=
+			e1p+dqhBVGWl/fEC+Rv5clJZn02AlzVqU3TlMFOBWQc=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -336,69 +320,6 @@
 			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
 			</data>
 		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9ww+fbcsMjfWA1Khg8oVFFtacMdr2vMRhp/1cback1A=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gji2RtEJwU3YrjDV8SqQNvYPnpI8kwEzeqJQd1nysJg=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EPDNQpLTZ7J3ggU9/BhgwGKbEwmAWLOsHW7KYoi7+wQ=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_langid.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g9SKOS50SMnJHvaBluGbAxQB/e5FMKcbR06Hr6dF/n0=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VRUPJ3nQeTbJ+/i+y7hWf+PqWta22UQkWClpWorpaPo=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZKunGbTtHuWz1IhsWq8LGsBRv1h56bCOhh4OKeIKCKc=
-			</data>
-		</dict>
-		<key>GoogleMVTextDetectorResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
-			</data>
-		</dict>
 		<key>GoogleService-Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -417,7 +338,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ciGklOmJDbfnh4pXeHEWeZCmXoeKm5ewDolbwUbTVGI=
+			x76xfp3SXHY11CjOlPps7xcoVwEPR4jIPZRnzOP7B+Q=
 			</data>
 		</dict>
 		<key>Headers/AccuraQatar.h</key>
@@ -490,6 +411,69 @@
 			82CNzFtlKnZ6oPmwnvkv3nr6I+uSzD5X5wp3mP32iQ4=
 			</data>
 		</dict>
+		<key>LatinOCRResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zzu6Ysuu/IfWPhrfJEzDbmRNH0yhWWZQ1EzZk9JVea8=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gji2RtEJwU3YrjDV8SqQNvYPnpI8kwEzeqJQd1nysJg=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EPDNQpLTZ7J3ggU9/BhgwGKbEwmAWLOsHW7KYoi7+wQ=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/tflite_langid.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f5Mfb3wd0OxZGs53gN+RZFpFD6/INQXz/0XOXvfIRBs=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VRUPJ3nQeTbJ+/i+y7hWf+PqWta22UQkWClpWorpaPo=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZKunGbTtHuWz1IhsWq8LGsBRv1h56bCOhh4OKeIKCKc=
+			</data>
+		</dict>
+		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
+			</data>
+		</dict>
 		<key>Liveness.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -501,56 +485,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6kwo6O7IcU+kXbOjSybVw4WFN/oNriReX6/JT423TE=
+			USi11iDfZ07gWGLrlJFwds5LHcZz/nddSE7UM9dDu2c=
 			</data>
 		</dict>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9vk9+Pqnjd38BN6vAzrMmpyh0RHByTBDj3rwqTdJ0E=
+			PdM/KaZWM6I22lZ8eE+B6USQIbUWzPgJrNYfnl+gidk=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3rKJEgQCa9UHGlOnw2DRS9z4ryNpCkcVxTTS1ujBVs=
-			</data>
-		</dict>
-		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sUuDdpq6zs7pSXcN4TnEDqLkI20ZnArzX7XYiE0C6og=
+			ZeBn0zC3RvApuyIUB/nZRxOAnmXS9ir4U91FKozcajE=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z0XjEcoQsud9s7EBRU6n5UZk66ylZTd4lc3dpf74Cbc=
-			</data>
-		</dict>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/3rKJEgQCa9UHGlOnw2DRS9z4ryNpCkcVxTTS1ujBVs=
-			</data>
-		</dict>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sUuDdpq6zs7pSXcN4TnEDqLkI20ZnArzX7XYiE0C6og=
-			</data>
-		</dict>
-		<key>Modules/AccuraQatar.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z0XjEcoQsud9s7EBRU6n5UZk66ylZTd4lc3dpf74Cbc=
+			sTRbx25Hmn8f22Q8LY7FtAV1FC8VVziH31iRk3wZ3fg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

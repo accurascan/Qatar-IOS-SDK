@@ -10,8 +10,8 @@
 		0021908E22ACE78400E08B01 /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021908D22ACE78400E08B01 /* ListViewVC.swift */; };
 		1835455324D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835455124D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift */; };
 		1835455424D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */; };
-		185646FC24EA45D600BFF300 /* accuraface.license in Resources */ = {isa = PBXBuildFile; fileRef = 185646FA24EA45D500BFF300 /* accuraface.license */; };
-		185646FD24EA45D600BFF300 /* key.license in Resources */ = {isa = PBXBuildFile; fileRef = 185646FB24EA45D600BFF300 /* key.license */; };
+		536D786527F1E55E006F59EF /* key.license in Resources */ = {isa = PBXBuildFile; fileRef = 536D786427F1E55E006F59EF /* key.license */; };
+		536D786727F1E569006F59EF /* accuraface.license in Resources */ = {isa = PBXBuildFile; fileRef = 536D786627F1E569006F59EF /* accuraface.license */; };
 		5C67D9812111E40B00154EB7 /* default_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D9802111E40A00154EB7 /* default_user.png */; };
 		5C94E024211ACA8200428686 /* Aller_Std.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C94E01D211ACA8200428686 /* Aller_Std.ttf */; };
 		5C94E025211ACA8200428686 /* Aller_Std_BdIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C94E01E211ACA8200428686 /* Aller_Std_BdIt.ttf */; };
@@ -79,8 +79,8 @@
 		0021908D22ACE78400E08B01 /* ListViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
 		1835455124D3FD9E002628B0 /* FaceMatchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceMatchResultTableViewCell.swift; sourceTree = "<group>"; };
 		1835455224D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceMatchResultTableViewCell.xib; sourceTree = "<group>"; };
-		185646FA24EA45D500BFF300 /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
-		185646FB24EA45D600BFF300 /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
+		536D786427F1E55E006F59EF /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
+		536D786627F1E569006F59EF /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
 		53D47DE1660DC54DF54CFEC2 /* Pods_AccuraQatarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraQatarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D96B2111E03500154EB7 /* Accura Scan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accura Scan-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C67D9802111E40A00154EB7 /* default_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_user.png; sourceTree = "<group>"; };
@@ -323,8 +323,8 @@
 		A38570EB2318018500FF7209 /* License */ = {
 			isa = PBXGroup;
 			children = (
-				185646FA24EA45D500BFF300 /* accuraface.license */,
-				185646FB24EA45D600BFF300 /* key.license */,
+				536D786627F1E569006F59EF /* accuraface.license */,
+				536D786427F1E55E006F59EF /* key.license */,
 			);
 			path = License;
 			sourceTree = "<group>";
@@ -366,8 +366,8 @@
 				6104CC7320BB4E6D00AC428E /* Frameworks */,
 				6104CC7420BB4E6D00AC428E /* Resources */,
 				FA30D04B23DEE96300BA0DC0 /* ShellScript */,
-				7129383F9248AD29EE7E079F /* [CP] Embed Pods Frameworks */,
 				A3A6A7EE25961302006E319C /* Embed Frameworks */,
+				D021F0A2343D930CA2463C2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -426,14 +426,14 @@
 				A324C4322476ED020002AE35 /* UserImgTableCell.xib in Resources */,
 				5C94E026211ACA8200428686 /* Aller_Std_It.ttf in Resources */,
 				1835455424D3FD9E002628B0 /* FaceMatchResultTableViewCell.xib in Resources */,
+				536D786527F1E55E006F59EF /* key.license in Resources */,
 				A3F172C2242250F30050FB25 /* Launch Screen.storyboard in Resources */,
+				536D786727F1E569006F59EF /* accuraface.license in Resources */,
 				A324C4362476ED2E0002AE35 /* DocumantVarifyCell.xib in Resources */,
 				A384904724A61EC700ECB42D /* README.md in Resources */,
 				5C94E02A211ACA8200428686 /* AllerDisplay_Std_Rg.ttf in Resources */,
 				A33E204B23E2AA78004FED85 /* ListTableCell.xib in Resources */,
 				5C94E028211ACA8200428686 /* Aller_Std_LtIt.ttf in Resources */,
-				185646FC24EA45D600BFF300 /* accuraface.license in Resources */,
-				185646FD24EA45D600BFF300 /* key.license in Resources */,
 				A324C4312476ED020002AE35 /* DocumentTableCell.xib in Resources */,
 				5C94E025211ACA8200428686 /* Aller_Std_BdIt.ttf in Resources */,
 				5C94E029211ACA8200428686 /* Aller_Std_Rg.ttf in Resources */,
@@ -465,7 +465,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7129383F9248AD29EE7E079F /* [CP] Embed Pods Frameworks */ = {
+		D021F0A2343D930CA2463C2B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -701,7 +701,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.accuraqatar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accuraqatar1234;
 				PRODUCT_NAME = "Accura Qatar";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -765,7 +765,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.accuraqatar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accuraqatar1234;
 				PRODUCT_NAME = "Accura Qatar";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;

@@ -152,11 +152,11 @@ override func viewDidLoad() {
     }
     //Set minimum frame for validating DOB and DOE of Qatar ID card
     //call this function before start camera
-    accuraCameraWrapper?.setMinFrameForValidate(3) // Supports only odd number values like 3,5,7.....
+    accuraCameraWrapper?.setMinFrameForValidate(3) // Set any Int value
     
     //Set minimum frame for validating Name and ID no of Qatar ID card.
     //call this function before start camera
-    accuraCameraWrapper?.setMinFrameQatarName_IDNo_Validate(5) // Supports only odd number values like 5,7.....
+    accuraCameraWrapper?.setMinFrameQatarName_IDNo_Validate(3) // Set any Int value
 }
     
 override func viewDidAppear(_ animated: Bool) {

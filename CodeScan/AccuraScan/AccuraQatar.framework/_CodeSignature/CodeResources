@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		dj7PNEpKdof2Lrs67zfXxF7Ar4U=
+		gz/mkBXzWXv56jJqzYx41I85ylY=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		Q8pxIOtejxPFw127NYi9lXxEr4Q=
+		csSvzPglCo3D5H7i5Y1/fkQ7IAw=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		etL5h5ymin+y3NFAjGJ+k4URT58=
+		OE7Ytkvx6URB1iwyQlEZkx775Y8=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		bntagvjXMtYBlfOd+8rbK3+bBx8=
+		cBdkiey1QIlbSqJD3NcAfyZUeSA=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -168,17 +168,33 @@
 		<data>
 		k1tulHWls8cUKPNfBx07PWiOLY8=
 		</data>
+		<key>Modules/AccuraQatar.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		RrPRnBjfsCLSr6MatenPQuqqHrI=
+		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		Eg+1nzpExuRcmrnxlvI6VFAZQTM=
 		</data>
+		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		3ZqZgIrpzRPagfLDi13ucqm2458=
+		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EZOVNr5Sm+wEhGVO84rT5oRCx1Y=
+		3ZUTKWG6VK4PhZmi9py9IrQBGjQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		TeKyes+Qs3YxDOz+QZyEIGvQ0Is=
+		</data>
+		<key>ProgressSUD.bundle/._progresshud-error@2x.png</key>
+		<data>
+		Sxp7MYWdMIJouo14SAEp+tFDjEs=
+		</data>
+		<key>ProgressSUD.bundle/._progresshud-success@2x.png</key>
+		<data>
+		Sxp7MYWdMIJouo14SAEp+tFDjEs=
 		</data>
 		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>
 		<data>
@@ -226,7 +242,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gc4HLRmKeCRTnbdMmeOgi+Nw5QsRvYYaa73zRPLFDW8=
+			y1H3cDF82bUPMU8dzdGUbUXVaL1Iq3Nxd1tu8HVBorY=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -254,7 +270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e1p+dqhBVGWl/fEC+Rv5clJZn02AlzVqU3TlMFOBWQc=
+			h0DQJYw1fSedtUkAmjwM3oYVDNqq4BLQmO8DAZtMLdo=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -415,7 +431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zzu6Ysuu/IfWPhrfJEzDbmRNH0yhWWZQ1EzZk9JVea8=
+			0zV1ICYO5WxcCxLXvp5dQbdXOUK4yqz62X/uZWiTZKM=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -495,6 +511,13 @@
 			PdM/KaZWM6I22lZ8eE+B6USQIbUWzPgJrNYfnl+gidk=
 			</data>
 		</dict>
+		<key>Modules/AccuraQatar.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y3i9NF3ikPvpxsdUt/fNfnjtT6yG72fsBz/c95Q9IYQ=
+			</data>
+		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -502,11 +525,18 @@
 			ZeBn0zC3RvApuyIUB/nZRxOAnmXS9ir4U91FKozcajE=
 			</data>
 		</dict>
+		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7bX+/LVdTPent5FCryJfNGPpCrn34q10Hew9SPW9OZM=
+			</data>
+		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sTRbx25Hmn8f22Q8LY7FtAV1FC8VVziH31iRk3wZ3fg=
+			P3wfQIyp77P1hE9uQGJeHma+B9v1NwDIo12CAEmM5H8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -514,6 +544,20 @@
 			<key>hash2</key>
 			<data>
 			GWdIkhsUDRIuSbyZ6VqXiZ4KrfEIvZBjGhozJfbZTUA=
+			</data>
+		</dict>
+		<key>ProgressSUD.bundle/._progresshud-error@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			09w2sCqpourHAvVj+25o+DRsRigxAyJPz2npt+kjwFA=
+			</data>
+		</dict>
+		<key>ProgressSUD.bundle/._progresshud-success@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			09w2sCqpourHAvVj+25o+DRsRigxAyJPz2npt+kjwFA=
 			</data>
 		</dict>
 		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>

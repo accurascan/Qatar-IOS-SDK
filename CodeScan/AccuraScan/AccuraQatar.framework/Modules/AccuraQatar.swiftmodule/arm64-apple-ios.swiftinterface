@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AccuraQatar
+import AVFoundation
+@_exported import AccuraQatar
+import Alamofire
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+public let ACCURA_ERROR_CODE_MOTION: Swift.String
+public let ACCURA_ERROR_CODE_DOCUMENT_IN_FRAME: Swift.String
+public let ACCURA_ERROR_CODE_BRING_DOCUMENT_IN_FRAME: Swift.String
+public let ACCURA_ERROR_CODE_PROCESSING: Swift.String
+public let ACCURA_ERROR_CODE_BLUR_DOCUMENT: Swift.String
+public let ACCURA_ERROR_CODE_FACE_BLUR: Swift.String
+public let ACCURA_ERROR_CODE_GLARE_DOCUMENT: Swift.String
+public let ACCURA_ERROR_CODE_HOLOGRAM: Swift.String
+public let ACCURA_ERROR_CODE_DARK_DOCUMENT: Swift.String
+public let ACCURA_ERROR_CODE_PHOTO_COPY_DOCUMENT: Swift.String
+public let ACCURA_ERROR_CODE_FACE: Swift.String
+public let ACCURA_ERROR_CODE_MRZ: Swift.String
+public let ACCURA_ERROR_CODE_PASSPORT_MRZ: Swift.String
+public let ACCURA_ERROR_CODE_RETRYING: Swift.String
+public let ACCURA_ERROR_CODE_WRONG_SIDE: Swift.String
+public let ACCURA_ERROR_CODE_IMAGE_ROTATE: Swift.String
+public let ACCURA_ERROR_CODE_MOVE_CARD: Swift.String
+@_hasMissingDesignatedInitializers open class SSASwiftReachability {
+  @objc deinit
+}
+public protocol LivenessData {
+  func LivenessData(stLivenessValue: Swift.String, livenessImage: UIKit.UIImage, status: Swift.Bool, errorMessage: Swift.String, APIErrorMessage: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class ProgressSHD : UIKit.UICollectionViewLayoutAttributes {
+  @_Concurrency.MainActor(unsafe) open class func dismiss()
+  @_Concurrency.MainActor(unsafe) open class func show(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func show(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open class func showSuccess(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func showSuccess(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open class func showError(_ status: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open class func showError(_ status: Swift.String?, _ interaction: Swift.Bool)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Liveness {
+  public static func setLiveness(livenessView: UIKit.UIViewController)
+  public static func setBackGroundColor(backGroundColor: Swift.String)
+  public static func setCloseIconColor(closeIconColor: Swift.String)
+  public static func setFeedbackBackGroundColor(feedbackBackGroundColor: Swift.String)
+  public static func setFeedbackTextColor(feedbackTextColor: Swift.String)
+  public static func setFeedbackTextSize(feedbackTextSize: CoreGraphics.CGFloat)
+  public static func setFeedBackframeMessage(feedBackframeMessage: Swift.String)
+  public static func setFeedBackAwayMessage(feedBackAwayMessage: Swift.String)
+  public static func setFeedBackOpenEyesMessage(feedBackOpenEyesMessage: Swift.String)
+  public static func setFeedBackCloserMessage(feedBackCloserMessage: Swift.String)
+  public static func setFeedBackCenterMessage(feedBackCenterMessage: Swift.String)
+  public static func setLivenessURL(livenessURL: Swift.String)
+  public static func setFeedbackMultipleFaceMessage(feedBackMultipleFaceMessage: Swift.String)
+  public static func setFeedBackFaceSteadymessage(feedBackFaceSteadymessage: Swift.String)
+  public static func setFeedBackLowLightMessage(feedBackLowLightMessage: Swift.String)
+  public static func setFeedBackBlurFaceMessage(feedBackBlurFaceMessage: Swift.String)
+  public static func setFeedBackGlareFaceMessage(feedBackGlareFaceMessage: Swift.String)
+  public static func setBlurPercentage(blurPercentage: Swift.Int)
+  public static func setGlarepercentage(glareMin: Swift.Int, glareMax: Swift.Int)
+  public static func setLowLightThreshHold(lowLightThreshhold: Swift.Int)
+  @objc deinit
+}

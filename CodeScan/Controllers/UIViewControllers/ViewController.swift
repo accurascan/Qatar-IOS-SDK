@@ -256,7 +256,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: _imageView, andLabelMsg: lblOCRMsg, andurl: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: Int32(cardid!), countryID: Int32(countryid!), isScanOCR: isCheckScanOCR, andLabelMsgTop: _lblTitle, andcardName: docName)
         accuraCameraWrapper?.setMinFrameForValidate(3)
-        accuraCameraWrapper?.setMinFrameQatarName_IDNo_Validate(5)
+        accuraCameraWrapper?.setMinFrameQatarName_IDNo_Validate(3)
     }
     
     @objc private func ChangedOrientation() {

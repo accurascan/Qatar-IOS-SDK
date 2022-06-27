@@ -168,10 +168,6 @@
 		<data>
 		k1tulHWls8cUKPNfBx07PWiOLY8=
 		</data>
-		<key>Modules/AccuraQatar.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		RrPRnBjfsCLSr6MatenPQuqqHrI=
-		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		Eg+1nzpExuRcmrnxlvI6VFAZQTM=
@@ -182,7 +178,7 @@
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3ZUTKWG6VK4PhZmi9py9IrQBGjQ=
+		whYPCrJN5PMtS//w7gv+fb2fWm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -511,13 +507,6 @@
 			PdM/KaZWM6I22lZ8eE+B6USQIbUWzPgJrNYfnl+gidk=
 			</data>
 		</dict>
-		<key>Modules/AccuraQatar.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			y3i9NF3ikPvpxsdUt/fNfnjtT6yG72fsBz/c95Q9IYQ=
-			</data>
-		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -536,7 +525,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3wfQIyp77P1hE9uQGJeHma+B9v1NwDIo12CAEmM5H8=
+			rve/fSp4htdkrfcVzsvEiZr7CMDQBldJkcvXtI12foM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

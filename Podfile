@@ -6,8 +6,9 @@ target 'AccuraQatarDemo' do
   use_frameworks!
 
   # Pods for AccuraQatarDemo
-  pod 'GoogleMLKit'
- 	pod 'SVProgressHUD'
-	pod 'Alamofire' , '5.1.0'
+   pod 'GoogleMLKit'
+   pod 'SVProgressHUD'
+   pod 'Alamofire' , '5.1.0'
+   pod 'AFNetworking', '~> 4.0'
 
 end

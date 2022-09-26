@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		gz/mkBXzWXv56jJqzYx41I85ylY=
+		ccb/NH4vfZlZjcPrR/gsyRIwwlA=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		csSvzPglCo3D5H7i5Y1/fkQ7IAw=
+		Cwy1CmuJ+e8hzJ+O0Sh4LS3xRuk=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/AccuraQatar-Swift.h</key>
 		<data>
-		+DQ2Hv7DZza86EC78sGi/PKijPc=
+		1SanDQD1BUc6RwXnOeqh908tXrQ=
 		</data>
 		<key>Headers/AccuraQatar.h</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OE7Ytkvx6URB1iwyQlEZkx775Y8=
+		2XJSCCUtd0HpEkUoUinAYusZW2M=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		cBdkiey1QIlbSqJD3NcAfyZUeSA=
+		Q+5pF0gDZ712NVr+Y55JQO/BX5U=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -166,31 +166,23 @@
 		</data>
 		<key>Liveness.storyboardc/Ocl-OV-Trd-view-SKD-mj-Bcp.nib</key>
 		<data>
-		k1tulHWls8cUKPNfBx07PWiOLY8=
+		Q5eYOOgF5TN5z7fMVYBfwMLUhIc=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Eg+1nzpExuRcmrnxlvI6VFAZQTM=
+		y1Efwzz8FfM2YYpxf0Xb6XFFnFQ=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3ZqZgIrpzRPagfLDi13ucqm2458=
+		DmdotMzK4TuTwt1SrndJrdCbJl4=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		whYPCrJN5PMtS//w7gv+fb2fWm0=
+		rPPa4UClvlmnXIORPGrOOxIbTZ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		TeKyes+Qs3YxDOz+QZyEIGvQ0Is=
-		</data>
-		<key>ProgressSUD.bundle/._progresshud-error@2x.png</key>
-		<data>
-		Sxp7MYWdMIJouo14SAEp+tFDjEs=
-		</data>
-		<key>ProgressSUD.bundle/._progresshud-success@2x.png</key>
-		<data>
-		Sxp7MYWdMIJouo14SAEp+tFDjEs=
 		</data>
 		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>
 		<data>
@@ -238,7 +230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y1H3cDF82bUPMU8dzdGUbUXVaL1Iq3Nxd1tu8HVBorY=
+			+u8rFyvmxyw1rweDrKfEFXrYu7ZKv+pL1pF/rRo+Lf4=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -266,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h0DQJYw1fSedtUkAmjwM3oYVDNqq4BLQmO8DAZtMLdo=
+			hKW/wRrEU8ZZaKPSL1Qcw9bYnvbAiFurodUG2LhudAo=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -350,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x76xfp3SXHY11CjOlPps7xcoVwEPR4jIPZRnzOP7B+Q=
+			44JDmfmH/1c8E9upssV5f0IBDJihbiYjGBlYwGy6xqA=
 			</data>
 		</dict>
 		<key>Headers/AccuraQatar.h</key>
@@ -427,7 +419,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zV1ICYO5WxcCxLXvp5dQbdXOUK4yqz62X/uZWiTZKM=
+			OY2s6bp8bt3ooyuhyeBf5Qhiz06PCy3J3Q7BFcyQNYw=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -504,28 +496,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdM/KaZWM6I22lZ8eE+B6USQIbUWzPgJrNYfnl+gidk=
+			3Qh/UjWwAITRPVrqgLj10BhZ4SgYEUMl7t8BkeMrFWc=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZeBn0zC3RvApuyIUB/nZRxOAnmXS9ir4U91FKozcajE=
+			JnG21ierRC1/e0ByU/380uh54mqbGvvkbS0OlhsU+AI=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7bX+/LVdTPent5FCryJfNGPpCrn34q10Hew9SPW9OZM=
+			n59NwINeWUk2X5qzLIm24bCGijXbIYzkFy7SM9zbrZs=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rve/fSp4htdkrfcVzsvEiZr7CMDQBldJkcvXtI12foM=
+			+IKYCa+Lxg/vYAPiI3G/tKAbRGRmIcQf9L70zqCQpQk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -533,20 +525,6 @@
 			<key>hash2</key>
 			<data>
 			GWdIkhsUDRIuSbyZ6VqXiZ4KrfEIvZBjGhozJfbZTUA=
-			</data>
-		</dict>
-		<key>ProgressSUD.bundle/._progresshud-error@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			09w2sCqpourHAvVj+25o+DRsRigxAyJPz2npt+kjwFA=
-			</data>
-		</dict>
-		<key>ProgressSUD.bundle/._progresshud-success@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			09w2sCqpourHAvVj+25o+DRsRigxAyJPz2npt+kjwFA=
 			</data>
 		</dict>
 		<key>ProgressSUD.bundle/progresshud-error@2x.png</key>

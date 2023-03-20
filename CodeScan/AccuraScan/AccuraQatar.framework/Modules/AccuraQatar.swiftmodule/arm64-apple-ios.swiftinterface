@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AccuraQatar
 import AVFoundation
 @_exported import AccuraQatar
-import Alamofire
 import Foundation
 import Swift
 import SystemConfiguration
@@ -63,5 +62,6 @@ public protocol LivenessData {
   public static func setBlurPercentage(blurPercentage: Swift.Int)
   public static func setGlarepercentage(glareMin: Swift.Int, glareMax: Swift.Int)
   public static func setLowLightThreshHold(lowLightThreshhold: Swift.Int)
+  public static func enableLivenessLog(isLogEnable: Swift.Bool)
   @objc deinit
 }

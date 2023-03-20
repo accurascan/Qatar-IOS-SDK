@@ -2,7 +2,7 @@
 import UIKit
 import AccuraQatar
 import SVProgressHUD
-import Alamofire
+//import Alamofire
 //Define Global Key
 let KEY_TITLE           =  "KEY_TITLE"
 let KEY_VALUE           =  "KEY_VALUE"
@@ -1336,7 +1336,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         self.livenessValue = stLivenessValue
         imgCamaraFace = livenessImage
         if status == false{
-            GlobalMethods.showAlertView(errorMessage, with: self)
+            GlobalMethods.showAlertView("Please remove glasses , hat and keep the phone at eye-level", with: self)
         }
         if(APIErrorMessage != "") {
             GlobalMethods.showAlertView(APIErrorMessage, with: self)
@@ -1389,10 +1389,10 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 dictParam["liveness_score"] = stLivenessValue
                 dictParam["facematch_image"] = stFaceImage
                 dictParam["liveness_image"] = stLivenessInage
-                    let sharedInstance = NetworkReachabilityManager()!
-                    var isConnectedToInternet:Bool {
-                        return sharedInstance.isReachable
-                    }
+//                    let sharedInstance = NetworkReachabilityManager()!
+//                    var isConnectedToInternet:Bool {
+//                        return sharedInstance.isReachable
+//                    }
 
                 
         }

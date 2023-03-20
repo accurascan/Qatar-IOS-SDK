@@ -8,7 +8,4 @@ target 'AccuraQatarDemo' do
   # Pods for AccuraQatarDemo
    pod 'GoogleMLKit'
    pod 'SVProgressHUD'
-   pod 'Alamofire' , '5.1.0'
-   pod 'AFNetworking', '~> 4.0'
-
 end

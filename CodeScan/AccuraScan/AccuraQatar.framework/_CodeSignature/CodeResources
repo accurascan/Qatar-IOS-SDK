@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/NSObject+PostResult.h</key>
 		<data>
-		D9PDjyDKIhKbFKSTqfq71CJSeWE=
+		efs+ykvZFgOOnHGmZ6RM3wWI41g=
 		</data>
 		<key>Headers/ResultModel.h</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DmdotMzK4TuTwt1SrndJrdCbJl4=
+		KCVzbIHO/ZZ0Uosdw7TnHxNzeRA=
 		</data>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rPPa4UClvlmnXIORPGrOOxIbTZ4=
+		k6KEg6vSPFhsBYCewrt21J9SDYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -391,7 +391,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			onR2VARgLCMq5iT6+K7KhacPfCZdrWp76F/q/3tC6v4=
+			Uld0MMAhh7efk1eTRjUfDO7NvDX/v+fm2wN2+crB5Mw=
 			</data>
 		</dict>
 		<key>Headers/ResultModel.h</key>
@@ -510,14 +510,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n59NwINeWUk2X5qzLIm24bCGijXbIYzkFy7SM9zbrZs=
+			xsv7B9L7OGTCOjqghbfBFF7P442DK6+Nc9cTySgc2x0=
 			</data>
 		</dict>
 		<key>Modules/AccuraQatar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+IKYCa+Lxg/vYAPiI3G/tKAbRGRmIcQf9L70zqCQpQk=
+			xgN3LA0DqrDafBH3Nck2HQIyFP3eoQHVXmmRzY1qLGw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -7,5 +7,5 @@ target 'AccuraQatarDemo' do
 
   # Pods for AccuraQatarDemo
    pod 'GoogleMLKit'
-   pod 'SVProgressHUD'
+   pod 'ProgressHUD'
 end

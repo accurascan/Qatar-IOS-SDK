@@ -6,6 +6,6 @@ framework module AccuraQatar {
 }
 
 module AccuraQatar.Swift {
-    header "AccuraQatar-Swift.h"
-    requires objc
+  header "AccuraQatar-Swift.h"
+  requires objc
 }

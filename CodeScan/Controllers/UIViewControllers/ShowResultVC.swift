@@ -1,7 +1,7 @@
 
 import UIKit
 import AccuraQatar
-import SVProgressHUD
+import ProgressHUD
 //import Alamofire
 //Define Global Key
 let KEY_TITLE           =  "KEY_TITLE"

@@ -1878,591 +1878,633 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccuraQatar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AccuraQatar"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AccuraQatar"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AccuraQatar"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 3,
       "value": "\"3\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 3,
       "value": "\"4\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 3,
       "value": "\"5\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 497,
       "length": 3,
       "value": "\"6\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 3,
       "value": "\"7\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 3,
       "value": "\"8\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 3,
       "value": "\"9\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 4,
       "value": "\"10\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 725,
       "length": 4,
       "value": "\"11\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 4,
       "value": "\"12\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 4,
       "value": "\"13\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 866,
       "length": 4,
       "value": "\"14\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 4,
       "value": "\"15\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 961,
       "length": 4,
       "value": "\"16\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 36,
       "value": "\"ReachabilityNotificationStatusItem\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 934,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 965,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 999,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1033,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1060,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 934,
       "length": 1,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 965,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 999,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1033,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1060,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 934,
       "length": 1,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 965,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 999,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1033,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1060,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1669,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1701,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1726,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1669,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1701,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1726,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1669,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1701,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1726,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1805,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1831,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1805,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1831,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1805,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/SSASwiftReachability\/SSASwiftReachability.swift",
       "kind": "IntegerLiteral",
       "offset": 1831,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1234,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1327,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1939,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/LivenessVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1973,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 20,
       "value": "\"PingFangSC-Regular\""
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 400,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 435,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "FloatLiteral",
       "offset": 511,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 573,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 575,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 587,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 589,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 600,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "IntegerLiteral",
       "offset": 602,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/ProgressHUDSwift\/Classes\/ProgressSHD.swift",
       "kind": "FloatLiteral",
       "offset": 614,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13330,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13358,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13385,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13413,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13330,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13358,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13385,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13413,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13330,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13358,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "FloatLiteral",
       "offset": 13385,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/apple\/Desktop\/New Qatar Release\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
+      "filePath": "\/Users\/apple\/Desktop\/Qatar Del\/ios-qatar-framework\/AccuraQatar\/PostResult.swift",
       "kind": "IntegerLiteral",
       "offset": 13413,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AccuraQatar-arfnuduvmefnfrdqjgtorovjetvb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AccuraQatar\/IntermediateBuildFilesPath\/AccuraQatar.build\/Release-iphoneos\/AccuraQatar.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 16,
+      "value": "\"accuraScanLogo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AccuraQatar-arfnuduvmefnfrdqjgtorovjetvb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AccuraQatar\/IntermediateBuildFilesPath\/AccuraQatar.build\/Release-iphoneos\/AccuraQatar.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 12,
+      "value": "\"icn _close\""
     }
   ]
 }
